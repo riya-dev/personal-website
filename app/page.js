@@ -1,14 +1,14 @@
 import Image from 'next/image'
 import SideBar from './SideBar'
 import Content from './Content'
+import BottomNav from './BottomNav'
 
 export default function Home() {
   return (
     <div className="flex">
       <SideBar />
-      {/* <div class="overlay"> */}
-        <Content />
-      {/* </div> */}
+      <Content />
+      <BottomNav />
     </div>
   )
 }
