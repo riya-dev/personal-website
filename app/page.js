@@ -1,18 +1,14 @@
 import Image from 'next/image'
 import SideBar from './SideBar'
+import Content from './Content'
 
 export default function Home() {
   return (
     <div className="flex">
       <SideBar />
+      {/* <div class="overlay"> */}
+        <Content />
+      {/* </div> */}
     </div>
-
-    // <p className="text-center text-green-500 font-bold">
-    //   Hi Mom!
-    // </p>
-
-    // <h1 className="text-3xl font-bold underline">
-    //   Hello world!
-    // </h1>
   )
 }

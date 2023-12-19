@@ -11,9 +11,21 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#2A0A5B',
-        secondary: '#7851A9',
+        transparent: 'transparent',
+        purple: {
+          900: '#2A0A5B',
+          800: '#4D238D',
+        },
       },
+      fontFamily: {
+        'display': ['Montserrat'],
+      },
+      text: {
+        'default': 'Montserrat',
+      },
+      // text: {
+        
+      // },
     },
   },
   plugins: [],

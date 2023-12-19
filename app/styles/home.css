@@ -1,0 +1,30 @@
+.home-image {
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.home-section{
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.home-section h1 {
+    position: absolute;
+    font: 80px/1.1em 'opensans-bold', sans-serif;
+    font-weight: 600;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+
+.home-section h2 {
+    color: purple-900;
+    position: absolute;
+    font: 32px/1.1em 'opensans-bold', sans-serif;
+    font-weight: 600;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
