@@ -1,4 +1,4 @@
-.projects-container {
+.links-container {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.projects-section {
+.links-section {
     overflow: hidden;
     white-space: nowrap;
     height: 100vh;
@@ -14,7 +14,7 @@
     text-align: center;
 }
 
-.projects-section h1 {
+.links-section h1 {
     font-size: 3rem;
     font-weight: bold;
     display: flex;
@@ -25,7 +25,7 @@
     padding-top: 3rem;
 }
 
-.projects-section h2 {
+.links-section h2 {
     font-size: 2rem; /* Adjust this based on your design */
     font-weight: bold;
 }
