@@ -4,7 +4,6 @@ import Education from './contentComponents/Education'
 import Projects from './contentComponents/Projects'
 import Skills from './contentComponents/Skills'
 
-
 const Content = () => {
     return (
         <>
@@ -14,7 +13,6 @@ const Content = () => {
                 <Education />
                 <Projects />
                 <Skills />
-
             </div>
       </>
     );

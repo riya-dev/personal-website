@@ -1,29 +1,40 @@
-.home-image {
-    width: 100%;
-    object-fit: cover;
+/* .custom-position {
+    object-position: 60% -3px;
+} */
+
+.home-container {
     height: 100vh;
 }
 
-.home-section{
-    /* overflow: hidden; */
+.home-section {
+    overflow: hidden;
     white-space: nowrap;
+    margin-top: 50px;
+}
+
+.home-image {
+    position: absolute;
+    top: 15%;
+    left: 62vh;
+    object-position: 3%;
 }
 
 .home-section h1 {
     position: absolute;
     font: 80px/1.1em 'opensans-bold', sans-serif;
     font-weight: 600;
-    top: 40%;
-    left: 50%;
+    top: 70%;
+    left: 50%; /* 62 */
     transform: translate(-50%, -50%);
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+    text-shadow: 0px 0px 3px purple;
 }
 
 .home-section h2 {
     position: absolute;
     font: 32px/1.1em 'opensans-bold', sans-serif;
     font-weight: 600;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 3px  purple;
 }
