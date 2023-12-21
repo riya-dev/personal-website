@@ -6,6 +6,8 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Riya Dev',
   description: 'Riya Dev personal website',
+  siteRepo: 'https://github.com/riya-dev/personal-website',
+  siteLogo: '/public/static/images/favicon.ico',
 }
 
 export default function RootLayout({ children }) {

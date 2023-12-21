@@ -9,7 +9,7 @@ const Home = () => {
         <>
             <div className="home-container" id="home">
                 <section class="home-section">
-                    <Image src={Riya} alt="This is me!" href="#"
+                    <Image src={Riya} alt="This is me!" href="#" draggable="false"
                     // add animation when clicking. explode confetti or music notes or something
                         className="home-image custom-position object-none w-96 h-96 rounded-full self-center justify-center object-center
                                     hover:scale-125 transition-all duration-500 cursor-pointer" /> 

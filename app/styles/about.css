@@ -1,4 +1,5 @@
 .about-container {
+    background-color: hsl(264, 34%, 49%);
     height: 100vh;
     width: 100%;
     display: flex;
@@ -28,6 +29,7 @@
 .about-section h2 {
     font-size: 2rem; /* Adjust this based on your design */
     font-weight: bold;
+    flex: auto;
 }
 
 .about-description{
