@@ -6,10 +6,12 @@
     overflow: hidden;
     white-space: nowrap;
     margin-top: 50px;
+    /* flex-direction: columns; */
 }
 
 .home-image {
     position: absolute;
+    align-self: auto;
     top: 15%;
     left: 62vh;
     object-position: 3%;
@@ -21,6 +23,7 @@
 
 .home-section h1 {
     position: absolute;
+    align-self: auto;
     font: 80px/1.1em 'opensans-bold', sans-serif;
     font-weight: 600;
     top: 70%;
@@ -31,6 +34,7 @@
 
 .home-section h2 {
     position: absolute;
+    align-self: auto;
     font: 32px/1.1em 'opensans-bold', sans-serif;
     font-weight: 600;
     top: 80%;

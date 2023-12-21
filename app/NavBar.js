@@ -24,6 +24,8 @@ const NavBar = () => {
                 <NavBarIcon icon={<BsFillLightningChargeFill size="36"/>} text={"Skills"} link={"#skills"} /> {/*project page*/}
 
                 <NavBarIcon icon={<RiGithubFill size="36"/>} text={"Links"} link={"#links"} /> {/*links page*/}
+
+                {/* Dark Mode */}
             
             </div>
         </>
