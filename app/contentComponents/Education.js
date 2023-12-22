@@ -12,15 +12,16 @@ const Education = () => {
 
                     <h2 class="text-purple-900">University of Michigan College of Engineering</h2>
                     <section class="education-box rounded-3xl grid grid-cols-4">
-                        <Image
-                            src={umich} 
-                            alt="University of Michigan emblem"
-                            href="#https://cse.engin.umich.edu/news/"
-                            draggable="false"
-                            style={{width: 'auto', height: 'auto' }}
-                            className="object-none col-span-1 justify-center object-center
-                                    transition-all duration-500 cursor-pointer p-1" />
-                                    {/* w-80 h-80 */}
+                        <a href="https://cse.engin.umich.edu/news/">
+                            <Image
+                                src={umich} 
+                                alt="University of Michigan emblem"
+                                draggable="false"
+                                style={{width: 'auto', height: 'auto' }}
+                                className="object-none col-span-1 justify-center object-center
+                                        transition-all duration-500 cursor-pointer p-1" />
+                                        {/* w-80 h-80 */}
+                        </a>
                         <section class="col-span-3 whitespace-normal self-center justify-center p-1">
                             <h3 class=" text-purple-400 text-bold">Computer Science BSE, minor in Business</h3>
                             <h3 class=" text-purple-400">GPA: 3.92/4.00</h3>
@@ -32,13 +33,14 @@ const Education = () => {
 
                     <h2 class="text-purple-900">TJHSST</h2>
                     <section class="education-box rounded-3xl grid grid-cols-4">
-                        <Image src={tjhsst}
-                            alt="TJHSST emblem"
-                            href="#https://www.usnews.com/education/best-high-schools/virginia/districts/fairfax-county-public-schools/thomas-jefferson-high-school-for-science-and-technology-20461"
-                            draggable="false"
-                            style={{width: 'auto', height: 'auto' }}
-                            className="object-none col-span-1 justify-center
-                                    transition-all duration-500 cursor-pointer p-1" />
+                        <a href="https://www.usnews.com/education/best-high-schools/virginia/districts/fairfax-county-public-schools/thomas-jefferson-high-school-for-science-and-technology-20461">
+                            <Image src={tjhsst}
+                                alt="TJHSST emblem"
+                                draggable="false"
+                                style={{width: 'auto', height: 'auto' }}
+                                className="object-none col-span-1 justify-center
+                                        transition-all duration-500 cursor-pointer p-1" />
+                        </a>
                         <section class="col-span-3 whitespace-normal">
                             {/* w-36 h-36  */}
                             <h3 class=" text-purple-400">#1 High School in USA National Rankings </h3>
