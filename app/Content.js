@@ -14,7 +14,7 @@ const Content = () => {
                 <Education />
                 <Projects />
                 <Skills />
-                {/* <Links /> */}
+                <Links />
             </div>
       </>
     );
