@@ -18,7 +18,7 @@ const Education = () => {
                                 alt="University of Michigan emblem"
                                 draggable="false"
                                 style={{width: 'auto', height: 'auto' }}
-                                className="object-none col-span-1 justify-center object-center
+                                className="object-none col-span-1 justify-center object-center hover:scale-110
                                         transition-all duration-500 cursor-pointer p-1" />
                                         {/* w-80 h-80 */}
                         </a>
@@ -38,7 +38,7 @@ const Education = () => {
                                 alt="TJHSST emblem"
                                 draggable="false"
                                 style={{width: 'auto', height: 'auto' }}
-                                className="object-none col-span-1 justify-center
+                                className="object-none col-span-1 justify-center hover:scale-110
                                         transition-all duration-500 cursor-pointer p-1" />
                         </a>
                         <section class="col-span-3 whitespace-normal">

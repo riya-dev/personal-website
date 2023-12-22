@@ -9,11 +9,13 @@ const Home = () => {
         <>
             <div className="home-container" id="home">
                 <section class="home-section grid grid-rows-6">
-                    <Image src={Riya} alt="This is me!" href="#" draggable="false"
-                    // add animation when clicking. explode confetti or music notes or something
-                        className="home-image custom-position object-none w-96 h-96 rounded-full self-center justify-center object-center
-                                    hover:scale-125 transition-all duration-500 cursor-pointer" /> 
-                        {/* custom-position */}
+                    <a href="https://www.linkedin.com/in/riya-dev/">
+                        <Image src={Riya} alt="This is me!" href="#" draggable="false"
+                        // add animation when clicking. explode confetti or music notes or something
+                            className="home-image custom-position object-none w-96 h-96 rounded-full self-center justify-center object-center
+                                        hover:scale-110 transition-all duration-500 cursor-pointer" /> 
+                            {/* custom-position */}
+                    </a>
                     <h1 class="text-purple-900">Riya Dev</h1>
                     {/* 리야 데브 */}
                     <h2 class="text-purple-900">Singing • Software Engineering • Innovating</h2>
