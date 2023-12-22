@@ -8,13 +8,14 @@ const Home = () => {
     return(
         <>
             <div className="home-container" id="home">
-                <section class="home-section">
+                <section class="home-section grid grid-rows-6">
                     <Image src={Riya} alt="This is me!" href="#" draggable="false"
                     // add animation when clicking. explode confetti or music notes or something
                         className="home-image custom-position object-none w-96 h-96 rounded-full self-center justify-center object-center
                                     hover:scale-125 transition-all duration-500 cursor-pointer" /> 
                         {/* custom-position */}
                     <h1 class="text-purple-900">Riya Dev</h1>
+                    {/* 리야 데브 */}
                     <h2 class="text-purple-900">Singing • Software Engineering • Innovating</h2>
                     {/* <svg src={RiArrowDownCircleLine} class="animate-bounce w-12 h-12
                             bg-purple-800 text-purple-300 shadow-lg" /> */}

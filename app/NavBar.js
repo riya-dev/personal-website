@@ -5,12 +5,12 @@ import { RiGraduationCapFill, RiGraduationCapLine, RiGithubFill, RiGithubLine,
 const NavBar = () => {
     return (
         <>
-            <div className="fixed top-0 left-0 h-20 w-screen m-0
-                            flex flex-row items-center
-                            bg-purple-900 text-white shadow-lg">
+            <div className="fixed top-0 left-0 h-20 w-screen m-0 flex flex-row
+                            items-center bg-purple-900 text-white shadow-lg">
+                                {/* grid grid-cols-8 gap-10 */}
                                 
                 <a href="#home" className="text-center self-center h-16 w-96 ml-2 hover:underline decoration-dotted
-                    text-3xl text-purple-400 font-bold py-4 px-center rounded-3xl
+                    text-3xl text-purple-400 font-bold py-4 px-center rounded-3xl col-span-3
                     hover:text-white hover:text-4xl hover:py-3 transition-all ease-in">
                     Riya Dev
                 </a>

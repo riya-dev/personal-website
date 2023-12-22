@@ -18,15 +18,10 @@ module.exports = {
           800: '#4D238D',
         },
       },
-      fontFamily: {
-        'display': ['Montserrat'],
-      },
-      text: {
-        'default': 'Montserrat',
-      },
-      // text: {
-        
-      // },
+      // fontFamily: {
+      //   body: ['Raleway'],
+      //   korean: ['Noto Serif KR']
+      // }
     },
   },
   plugins: [],

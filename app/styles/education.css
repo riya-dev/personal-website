@@ -29,14 +29,15 @@
 }
 
 .education-section h3 {
-    align-items:left;
-    font-size: 1rem;
-    font-weight: bold;
+    font-size:medium;
+    text-wrap: true;
+    margin:1rem;
+    font-weight:normal;
+    text-align: center;
 }
 
-.umich{
-    display: flex;
+.education-box{
     width: 90%;
     margin: 1rem auto;
-    flex: auto;
+    background-color: white;
 }
