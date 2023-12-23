@@ -48,7 +48,7 @@ const Links = () => {
                             LinkedIn
                         </a>
 
-                        <a class="socials-text" 
+                        <a class="socials-text"
                             href="https://twitter.com/ceoRiya" >
                             Twitter
                         </a>

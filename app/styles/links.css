@@ -44,8 +44,15 @@
     font-weight:bold;
     font-size: 1.25rem;
     color: rgb(77, 35, 141); /* purple-800 */
-    /* opacity: 70%; */
+    opacity: 70%;
     margin-top: 0.5rem;
+}
+
+.socials-text:hover{
+    opacity:100%;
+    /* font-size:1.3rem;
+    transition: linear;
+    transition-duration: 500; */
 }
 
 .links-section h2 {
