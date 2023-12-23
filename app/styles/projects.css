@@ -22,11 +22,6 @@
     padding-top: 6rem;
 }
 
-.projects-section h2 {
-    font-size: 2rem;
-    font-weight: bold;
-}
-
 .projects-grid {
     overflow: hidden;
     text-align: center;
@@ -38,12 +33,31 @@
 .project-card {
     background-color: white;
     font-size: 2rem;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: flex-start;
+    color: rgb(42, 10, 91); /* custom purple-900*/
 }
 
-.project-card h1{
+.project-card h2 {
     font-size: 2rem;
     font-weight: bold;
     white-space: wrap;
-    padding: 1rem;
-    margin: 0 auto;
+    margin: 1rem 0 auto;
+}
+
+.project-card h3 {
+    font-size: 1.25rem;
+    font-weight: normal;
+    white-space: wrap;
+    align-self: flex-start;
+    margin: 1rem auto;
+}
+
+.project-card img {
+    margin: 1rem 0 auto;
+    height:auto;
+    width:fit-content;
 }
