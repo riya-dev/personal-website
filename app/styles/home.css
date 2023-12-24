@@ -4,7 +4,7 @@
 
 .home-section {
     overflow: hidden;
-    white-space: nowrap;
+    white-space: wrap;
     margin-top: 50px;
     /* flex-direction: columns; */
 }

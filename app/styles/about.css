@@ -9,7 +9,7 @@
 }
 
 .about-section {
-    overflow: auto; /* TODO change */
+    overflow: hidden;
     width: 100%;
     text-align: center;
 }

@@ -1,7 +1,7 @@
 .education-container {
     width: 100%;
     overflow: hidden;
-    white-space: nowrap;
+    white-space: wrap;
 }
 
 /* .education-section {

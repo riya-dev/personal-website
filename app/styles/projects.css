@@ -3,11 +3,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .projects-section {
-    overflow: hidden;
-    width: 90%;
+    width: 95%;
     text-align: center;
 }
 
@@ -25,9 +25,9 @@
 .projects-grid {
     overflow: hidden;
     text-align: center;
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 2rem;
+    gap: 2rem; */
 }
 
 .project-card {
@@ -39,6 +39,7 @@
     justify-content: flex-start;
     color: rgb(42, 10, 91); /* custom purple-900*/
     min-height: 100%;
+    margin: 1rem;
 }
 
 .project-card h2 {
@@ -57,7 +58,7 @@
 }
 
 .project-card img {
-    margin: 0 auto;
+    margin: .25rem auto;
     height:auto;
     max-width:95%;
     -webkit-user-drag: none;
