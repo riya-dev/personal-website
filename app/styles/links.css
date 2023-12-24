@@ -24,16 +24,12 @@
 }
 
 .socials-section{
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1rem;
     text-align: center;
     width: 90%;
     margin: 0 auto;
 }
 
 .socials-section a img {
-    width: min-content;
     height: auto;
     margin: 0 auto;
 }
@@ -45,17 +41,9 @@
     font-size: 1.25rem;
     color: rgb(77, 35, 141); /* purple-800 */
     opacity: 70%;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
 
 .socials-text:hover{
     opacity:100%;
-    /* font-size:1.3rem;
-    transition: linear;
-    transition-duration: 500; */
-}
-
-.links-section h2 {
-    font-size: 2rem; /* Adjust this based on your design */
-    font-weight: bold;
 }

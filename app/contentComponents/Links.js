@@ -10,7 +10,7 @@ const Links = () => {
             <div class="links-container" id="links">
                 <section class="links-section">
                     <h1 class="text-purple-900">Find me Online!</h1>
-                    <section class="socials-section grid grid-cols-3 gap-3">
+                    <section class="socials-section md:grid md:grid-cols-3 md:gap-3">
                         <a href="https://github.com/riya-dev">
                             <Image
                                 src={github} alt="My GitHub: https://github.com/riya-dev!" draggable="false"
@@ -18,6 +18,7 @@ const Links = () => {
                                 className="object-none justify-center object-center hover:scale-110
                                         transition-all duration-500 cursor-pointer p-1" />
                                         {/* w-80 h-80 */}
+                            <a class="socials-text">Github</a>
                         </a>
 
                         <a href="https://www.linkedin.com/in/riya-dev/">
@@ -27,6 +28,7 @@ const Links = () => {
                                 className="object-none justify-center object-center hover:scale-110
                                         transition-all duration-500 cursor-pointer p-1" />
                                         {/* w-80 h-80 */}
+                            <a class="socials-text">LinkedIn</a>
                         </a>
 
                         <a href="https://twitter.com/ceoRiya">
@@ -36,21 +38,7 @@ const Links = () => {
                                 className="object-none justify-center object-center hover:scale-110
                                         transition-all duration-500 cursor-pointer p-1" />
                                         {/* w-80 h-80 */}
-                        </a>
-
-                        <a class="socials-text" 
-                            href="https://github.com/riya-dev" >
-                            GitHub
-                        </a>
-
-                        <a class="socials-text" 
-                            href="https://www.linkedin.com/in/riya-dev/" >
-                            LinkedIn
-                        </a>
-
-                        <a class="socials-text"
-                            href="https://twitter.com/ceoRiya" >
-                            Twitter
+                            <a class="socials-text">Twitter</a>
                         </a>
                     </section>
                 </section>
