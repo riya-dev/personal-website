@@ -36,16 +36,16 @@
     border-radius:10px;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: flex-start;
     color: rgb(42, 10, 91); /* custom purple-900*/
+    min-height: 100%;
 }
 
 .project-card h2 {
     font-size: 2rem;
     font-weight: bold;
     white-space: wrap;
-    margin: 1rem 0 auto;
+    margin: .5rem 0 auto;
 }
 
 .project-card h3 {
@@ -57,7 +57,8 @@
 }
 
 .project-card img {
-    margin: 1rem 0 auto;
+    margin: 0 auto;
     height:auto;
-    width:fit-content;
+    max-width:95%;
+    -webkit-user-drag: none;
 }
