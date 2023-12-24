@@ -10,6 +10,7 @@ import shortest_path_railroad from '/public/static/images/projects/shortest_path
 import shortest_path_railroad_blue from '/public/static/images/projects/shortest_path_railroad_blue.png'
 import shortest_path_railroad_orange from '/public/static/images/projects/shortest_path_railroad_orange.png'
 import shortest_path_railroad_pink from '/public/static/images/projects/shortest_path_railroad_pink.png'
+import assip from '/public/static/images/projects/assip.gif'
 
 const Projects = () => {
     return(
@@ -44,6 +45,12 @@ const Projects = () => {
                             <h2>CV 3D Platonic Rotating Solid</h2>
                             <Image src={rotating_platonic_solid}></Image>
                             <h3>OpenCV • C++ • HighGUI Module </h3>
+                        </section>
+
+                        <section class="project-card">
+                            <h2>GMU Systems Biology Lab Internship</h2>
+                            <Image src={assip}></Image>
+                            <h3>Java • Python • MATLAB • Anaconda • FORTRAN</h3>
                         </section>
 
                         <section class="project-card">

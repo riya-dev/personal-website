@@ -8,13 +8,12 @@ const Home = () => {
     return(
         <>
             <div className="home-container" id="home">
-                <section class="home-section grid grid-rows-6">
+                <section class="home-section">
                     <a href="https://www.linkedin.com/in/riya-dev/">
                         <Image src={Riya} alt="This is me!" draggable="false"
                         // add animation when clicking. explode confetti or music notes or something
-                            className="home-image custom-position object-none w-96 h-96 rounded-full self-center justify-center object-center
+                            className="home-image object-none w-96 h-96 rounded-full self-center justify-center object-center
                                         hover:scale-110 transition-all duration-500 cursor-pointer" /> 
-                            {/* custom-position */}
                     </a>
 
                     <h1 class="highlight text-purple-900">

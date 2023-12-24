@@ -1,19 +1,36 @@
+"use client"
+import { useState, useEffect } from 'react';
 import { BsPlus, BsFillLightningChargeFill, BsFillLightningFill, BsGearFill } from 'react-icons/bs';
 import { RiGraduationCapFill, RiGraduationCapLine, RiGithubFill, RiGithubLine, 
         RiCodeBoxFill, RiCodeBoxLine, RiMicFill, RiMicLine, RiMickeyFill, RiMickeyLine } from 'react-icons/ri';
 
-function scrollFunction(){
-    var scrollPosition = window.scrollY;
-    viewportHeight = window.innerHeight;
-    var scrollPercentage = (scrollPosition / viewportHeight) * 100;
-}
-
 const NavBar = () => {
+    const [scrollPercentage, setScrollPercentage] = useState(0);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollPosition = window.scrollY;
+            const viewportHeight = window.innerHeight;
+            const percentage = (scrollPosition / viewportHeight) * 100;
+
+            setScrollPercentage(percentage);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    const navbarColor = scrollPercentage > 50 ? 'bg-purple-900' : 'bg-transparent';
+    const textColor = scrollPercentage > 50 ? 'text-white' : 'text-purple-400';
+
     return (
         <>
-            <div className="fixed top-0 left-0 h-20 w-screen m-0 flex flex-row
+            <div className="navbar fixed top-0 left-0 h-20 w-screen m-0 flex flex-row
                             items-center bg-purple-900 text-white shadow-lg">
-                                {/* grid grid-cols-8 gap-10 */}
+                                {/* ${navbarColor} ${textColor} */}
                                 
                 <a href="#home" className="text-center self-center h-16 w-96 ml-2 hover:underline decoration-dotted
                     text-3xl text-purple-400 font-bold py-4 px-center rounded-3xl col-span-3

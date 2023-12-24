@@ -25,6 +25,15 @@
       mx-2;
   }
 
+  .navbar{
+    transition: background-color 0.5s ease;
+    /* z-index: 1; */
+  }
+
+  .navbar.scroll {
+    background-color: #2A0A5B;
+  }
+
   .content {
     display: flex;
     flex-direction: column;
