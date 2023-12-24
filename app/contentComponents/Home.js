@@ -25,7 +25,7 @@ const Home = () => {
                     <h2 class="text-purple-900">Software Engineer • Innovator • Singer</h2>
                     {/* <svg src={RiArrowDownCircleLine} class="animate-bounce w-12 h-12
                             bg-purple-800 text-purple-300 shadow-lg" /> */}
-                </section>
+                    </section>
             </div>
         </>
     )

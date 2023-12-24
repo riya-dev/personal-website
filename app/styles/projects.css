@@ -38,8 +38,9 @@
     flex-direction: column;
     justify-content: flex-start;
     color: rgb(42, 10, 91); /* custom purple-900*/
-    min-height: 100%;
+    /* min-height: 100%; */
     margin: 1rem;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .project-card h2 {

@@ -2,6 +2,12 @@ import { BsPlus, BsFillLightningChargeFill, BsFillLightningFill, BsGearFill } fr
 import { RiGraduationCapFill, RiGraduationCapLine, RiGithubFill, RiGithubLine, 
         RiCodeBoxFill, RiCodeBoxLine, RiMicFill, RiMicLine, RiMickeyFill, RiMickeyLine } from 'react-icons/ri';
 
+function scrollFunction(){
+    var scrollPosition = window.scrollY;
+    viewportHeight = window.innerHeight;
+    var scrollPercentage = (scrollPosition / viewportHeight) * 100;
+}
+
 const NavBar = () => {
     return (
         <>
