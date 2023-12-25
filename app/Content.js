@@ -12,8 +12,8 @@ const Content = () => {
                 <Home />
                 <About />
                 <Education />
-                <Projects />
                 <Skills />
+                <Projects />
                 <Links />
             </div>
       </>

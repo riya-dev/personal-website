@@ -15,7 +15,7 @@ const Home = () => {
                         draggable="false"
                     // add animation when clicking. explode confetti or music notes or something
                         className="home-image object-none w-96 h-96 rounded-full self-center justify-center object-center
-                                    hover:scale-110 transition-all duration-500 cursor-pointer" /> 
+                                    hover:scale-110 transition-all duration-500" /> 
 
                     <h1 className="highlight text-purple-900">
                         Riya Dev

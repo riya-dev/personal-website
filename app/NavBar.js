@@ -35,7 +35,7 @@ const NavBar = () => {
                                 {/* ${navbarColor} ${textColor} */}
                                 
                 <a href="#home" className="text-center self-center h-16 w-96 ml-2 hover:underline decoration-dotted
-                    text-3xl text-purple-400 font-bold py-4 px-center rounded-3xl col-span-3
+                    text-3xl text-purple-300 font-bold py-4 px-center rounded-3xl col-span-3
                     hover:text-white hover:text-4xl hover:py-3 transition-all ease-in">
                     Riya Dev
                 </a>
@@ -44,9 +44,9 @@ const NavBar = () => {
 
                 <NavBarIcon icon={<RiGraduationCapFill size="36"/>} text={"Education"} link={"#education"} /> {/*education page*/}
 
-                <NavBarIcon icon={<RiCodeBoxFill size="36"/>} text={"Projects"} link={"#projects"} /> {/*project page*/}
-
                 <NavBarIcon icon={<BsFillLightningChargeFill size="36"/>} text={"Skills"} link={"#skills"} /> {/*project page*/}
+
+                <NavBarIcon icon={<RiCodeBoxFill size="36"/>} text={"Projects"} link={"#projects"} /> {/*project page*/}
 
                 <NavBarIcon icon={<RiGithubFill size="36"/>} text={"Links"} link={"#links"} /> {/*links page*/}
 

@@ -21,7 +21,7 @@ const Education = () => {
                                         draggable="false"
                                         style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                                         className="object-none col-span-1 justify-center object-center hover:scale-110
-                                                transition-all duration-500 cursor-pointer p-1" />
+                                                transition-all duration-300 cursor-pointer p-1 shadow-xl" />
                                                 {/* w-80 h-80 */}
                                 </a>
                                 <section className="col-span-3 whitespace-normal self-center justify-center p-1">
@@ -42,12 +42,12 @@ const Education = () => {
                                         alt="TJHSST emblem"
                                         draggable="false"
                                         style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                        className="object-none col-span-1 justify-center hover:scale-110
-                                                transition-all duration-500 cursor-pointer p-1" />
+                                        className="object-none col-span-1 justify-center hover:scale-110 ease-linear
+                                                transition-all duration-300 cursor-pointer p-1 shadow-xl" />
                                 </a>
                                 <section className="col-span-3 whitespace-normal self-center justify-center p-1">
                                     {/* w-36 h-36  */}
-                                    <h3 className=" text-purple-400">#1 High School in USA National Rankings </h3>
+                                    <h3>#1 High School in USA National Rankings </h3>
                                     {/* <h3 className=" text-purple-400">Artificial Intelligence I & II, Computer Vision I & II, Mobile/Web Application Development Research Lab, AP Computer Science + Data Structures, Spanish I,II,III</h3> */}
                                 </section>
                             </section>

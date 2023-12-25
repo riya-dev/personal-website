@@ -9,7 +9,7 @@ const Links = () => {
         <>
             <div className="links-container" id="links">
                 <section className="links-section">
-                    <h1 className="text-purple-900">Find me Online!</h1>
+                    <h1 className="text-purple-900">Find me Online</h1>
                     <section className="socials-section md:grid md:grid-cols-3 md:gap-3">
                         <a href="https://github.com/riya-dev">
                             <Image

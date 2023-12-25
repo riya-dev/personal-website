@@ -18,6 +18,7 @@ const Projects = () => {
             <div className="projects-container" id="projects">
                 <section className="projects-section">
                     <h1 className="text-purple-900">Projects</h1>
+                    <h2 className="text-purple-900 font-medium opacity-75">(These are just some of my favorite projects. Find more on GitHub.)</h2>
 
                     <section className="projects-grid md:grid md:grid-cols-2 md:gap-8">
 
