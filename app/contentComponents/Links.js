@@ -34,7 +34,7 @@ const Links = () => {
                         <a href="https://twitter.com/ceoRiya">
                             <Image
                                 src={twitter} alt="My Twitter!" draggable="false"
-                                style={{width: 'auto', height: 'auto' }}
+                                style={{ width: '75%', height: '75%', objectFit: 'cover' }}
                                 className="object-none justify-center object-center hover:scale-110
                                         transition-all duration-500 cursor-pointer p-1" />
                                         {/* w-80 h-80 */}
