@@ -1,30 +1,32 @@
-"use client"
-import { useState, useEffect } from 'react';
+// "use client"
+// import { useState, useEffect } from 'react';
 import { BsPlus, BsFillLightningChargeFill, BsFillLightningFill, BsGearFill } from 'react-icons/bs';
 import { RiGraduationCapFill, RiGraduationCapLine, RiGithubFill, RiGithubLine, 
         RiCodeBoxFill, RiCodeBoxLine, RiMicFill, RiMicLine, RiMickeyFill, RiMickeyLine } from 'react-icons/ri';
 
 const NavBar = () => {
-    const [scrollPercentage, setScrollPercentage] = useState(0);
+    // const [isClient, setIsClient] = useState(false)
+    // const [scrollPercentage, setScrollPercentage] = useState(0);
 
-    useEffect(() => {
-        const handleScroll = () => {
-            const scrollPosition = window.scrollY;
-            const viewportHeight = window.innerHeight;
-            const percentage = (scrollPosition / viewportHeight) * 100;
+    // useEffect(() => {
+    //     setIsClient(true)
+    //     const handleScroll = () => {
+    //         const scrollPosition = window.scrollY;
+    //         const viewportHeight = window.innerHeight;
+    //         const percentage = (scrollPosition / viewportHeight) * 100;
 
-            setScrollPercentage(percentage);
-        };
+    //         setScrollPercentage(percentage);
+    //     };
 
-        window.addEventListener('scroll', handleScroll);
+    //     window.addEventListener('scroll', handleScroll);
 
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+    //     return () => {
+    //         window.removeEventListener('scroll', handleScroll);
+    //     };
+    // }, []);
 
-    const navbarColor = scrollPercentage > 50 ? 'bg-purple-900' : 'bg-transparent';
-    const textColor = scrollPercentage > 50 ? 'text-white' : 'text-purple-400';
+    // const navbarColor = scrollPercentage > 50 ? 'bg-purple-900' : 'bg-transparent';
+    // const textColor = scrollPercentage > 50 ? 'text-white' : 'text-purple-400';
 
     return (
         <>

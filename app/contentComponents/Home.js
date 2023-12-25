@@ -8,7 +8,7 @@ const Home = () => {
     return(
         <>
             <div className="home-container" id="home">
-                <section class="home-section">
+                <section className="home-section">
                     <Image 
                         src={Riya}
                         alt="This is me"
@@ -17,13 +17,13 @@ const Home = () => {
                         className="home-image object-none w-96 h-96 rounded-full self-center justify-center object-center
                                     hover:scale-110 transition-all duration-500 cursor-pointer" /> 
 
-                    <h1 class="highlight text-purple-900">
+                    <h1 className="highlight text-purple-900">
                         Riya Dev
                     </h1>
 
                     {/* 리야 데브 */}
-                    <h2 class="text-purple-900">Software Engineer • Innovator • Singer</h2>
-                    {/* <svg src={RiArrowDownCircleLine} class="animate-bounce w-12 h-12
+                    <h2 className="text-purple-900">Software Engineer • Innovator • Singer</h2>
+                    {/* <svg src={RiArrowDownCircleLine} className="animate-bounce w-12 h-12
                             bg-purple-800 text-purple-300 shadow-lg" /> */}
                     </section>
             </div>

@@ -3,12 +3,12 @@ import '../styles/about.css'
 const About = () => {
     return (
         <>
-            <div class="about-container" id="about">
-                <section class="about-section">
-                    <h1 class="text-purple-900 overscroll-behavior:contain">About Me</h1>
-                    <div class="about-description">
-                        <p class="tracking-wider">I am Riya Dev.</p>
-                        <p class="text-purple-200 tracking-tight font-normal">
+            <div className="about-container" id="about">
+                <section className="about-section">
+                    <h1 className="text-purple-900 overscroll-behavior:contain">About Me</h1>
+                    <div className="about-description">
+                        <p className="tracking-wider">I am Riya Dev.</p>
+                        <p className="text-purple-200 tracking-tight font-normal">
                             I've been coding since the age of 9 when I wrote my first JavaScript program — a Samsung 
                             Galaxy S4 clone.
                             Intrigued by the boundless possibilities of code, I pursued an 
@@ -25,7 +25,7 @@ const About = () => {
                             Forever a builder, I continuously expand my technological toolkit
                             to kickstart more projects and build impactful innovations.
                         </p>
-                        <p class="tracking-tight font-normal">When I'm not 
+                        <p className="tracking-tight font-normal">When I'm not 
                             coding, you can find me singing to Adele, gushing over the latest  
                             fashion shows, listening to my favorite podcasts (Crime Junkies and How I Built This 
                             with Guy Raz are my favorites), or solving expert-level Sudoku puzzles.

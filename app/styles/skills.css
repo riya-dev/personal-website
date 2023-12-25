@@ -1,31 +1,62 @@
 .skills-container {
-    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .skills-section {
-    overflow: hidden;
-    white-space: nowrap;
-    height: 100vh;
-    width: 100%;
+    width: 95%;
     text-align: center;
 }
 
 .skills-section h1 {
     font-size: 3rem;
     font-weight: bold;
-    display: flex;
-    text-align: center;
-    width: 90%;
     margin: 1rem auto;
     margin-bottom: 1rem;
     padding-top: 6rem;
 }
 
-.skills-section h2 {
-    font-size: 2rem; /* Adjust this based on your design */
+.skills-grid {
+    overflow: hidden;
+    text-align: center;
+}
+
+.skills-card {
+    background-color: white;
+    font-size: 2rem;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(42, 10, 91); /* custom purple-900*/
+    margin: 1rem;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.icon-large{
+    opacity: 70%; 
+    margin:1rem;
+    font-size: 2em;
+}
+
+.skills-card h2 {
+    font-size: 2rem;
     font-weight: bold;
+    white-space: wrap;
+}
+
+.skills-card h3 {
+    font-size: 1.25rem;
+    font-weight: normal;
+    white-space: wrap;
+    opacity: 70%;
+}
+
+.skills-card img {
+    margin: .25rem auto;
+    height:auto;
+    max-width:95%;
+    -webkit-user-drag: none;
 }
