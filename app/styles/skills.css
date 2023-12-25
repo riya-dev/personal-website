@@ -25,7 +25,6 @@
 }
 
 .skills-card {
-    background-color: white;
     font-size: 2rem;
     border-radius:10px;
     display: flex;
@@ -33,11 +32,12 @@
     color: rgb(42, 10, 91); /* custom purple-900*/
     margin: 1rem;
     box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
+    background-color: white;
 }
 
 .icon-large{
     opacity: 70%; 
-    margin:1rem;
+    margin-top:1rem;
     font-size: 2em;
 }
 
@@ -48,15 +48,13 @@
 }
 
 .skills-card h3 {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: normal;
     white-space: wrap;
     opacity: 70%;
+    margin-bottom: 1rem;
 }
 
-.skills-card img {
-    margin: .25rem auto;
-    height:auto;
-    max-width:95%;
-    -webkit-user-drag: none;
+.skills-card h3.small-font {
+    font-size: 1rem;
 }

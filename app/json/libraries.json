@@ -1,0 +1,20 @@
+{
+"libraries": [
+    {
+      "iconClass": "icon-large devicon-opencv-plain",
+      "library": "OpenCV"
+    },
+    {
+      "iconClass": "icon-large devicon-numpy-original",
+      "library": "NumPy"
+    },
+    {
+      "iconClass": "icon-large devicon-pandas-original",
+      "library": "Pandas"
+    },
+    {
+      "iconClass": "icon-large devicon-pytorch-original",
+      "library": "PyTorch"
+    }
+  ]
+}

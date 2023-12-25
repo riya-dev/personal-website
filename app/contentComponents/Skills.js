@@ -1,5 +1,47 @@
 import '../styles/skills.css'
-import Image from 'next/image'          
+import * as languagesData from '../json/languages.json';
+const languageString = JSON.stringify(languagesData);
+const languages = JSON.parse(languageString).languages;
+
+import * as frameworksData from '../json/frameworks.json';
+const frameworkString = JSON.stringify(frameworksData);
+const frameworks = JSON.parse(frameworkString).frameworks;
+
+import * as librariesData from '../json/libraries.json';
+const libraryString = JSON.stringify(librariesData);
+const libraries = JSON.parse(libraryString).libraries;
+
+import * as developerToolsData from '../json/developer_tools.json';
+const developerToolString = JSON.stringify(developerToolsData);
+const developerTools = JSON.parse(developerToolString).developer_tools;
+
+const LanguageSection = ({ iconClass, language }) => (
+    <section>
+      <i className={iconClass}></i>
+      <h3 className={language.length > 9 ? "small-font" : ""}>{language}</h3>
+    </section>
+);
+
+const FrameworkSection = ({ iconClass, framework }) => (
+    <section>
+      <i className={iconClass}></i>
+      <h3 className={framework.length > 10 ? "small-font" : ""}>{framework}</h3>
+    </section>
+);
+
+const LibrarySection = ({ iconClass, library }) => (
+    <section>
+      <i className={iconClass}></i>
+      <h3 className={library.length > 10 ? "small-font" : ""}>{library}</h3>
+    </section>
+);
+
+const DeveloperToolSection = ({ iconClass, tool }) => (
+    <section>
+      <i className={iconClass}></i>
+      <h3 className={tool.length > 10 ? "small-font" : ""}>{tool}</h3>
+    </section>
+);
 
 const Skills = () => {
     return(
@@ -15,23 +57,10 @@ const Skills = () => {
                         <section className="skills-card">
                             <h2>Languages</h2>
                             <section className="grid grid-cols-3">
-                                <section>
-                                    <i class="icon-large devicon-cplusplus-plain-wordmark"></i>
-                                    <h3>C++</h3>
-                                </section>
-                                <section>
-                                    <i class="icon-large devicon-java-plain"></i>
-                                    <h3>Java</h3>
-                                </section>
-                                <i class="icon-large devicon-python-plain"></i>
-                                <i class="icon-large devicon-javascript-plain"></i>
-                                <i class="icon-large devicon-html5-plain"></i>
-                                <i class="icon-large devicon-css3-plain"></i>
-                                <i class="icon-large devicon-mysql-plain"></i>
-                                {/* fortran */}
-                                <i class="icon-large devicon-dart-plain"></i>
-                                <i class="icon-large devicon-julia-plain"></i>
-
+                                {languages.map((language, index) => (
+                                    <LanguageSection key={index} {...language} />
+                                ))}
+                                {/* FORTRAN */}
                             </section>
                         </section>
 
@@ -39,10 +68,9 @@ const Skills = () => {
                         <section className="skills-card">
                             <h2>Frameworks</h2>
                             <section className="grid grid-cols-3">
-                                <i class="icon-large devicon-react-original"></i>
-                                <i class="icon-large devicon-nextjs-original"></i>
-                                <i class="icon-large devicon-tailwindcss-plain"></i>
-                                <i class="icon-large devicon-flutter-plain"></i>
+                                {frameworks.map((framework, index) => (
+                                    <FrameworkSection key={index} {...framework} />
+                                ))}
                             </section>
                         </section>
 
@@ -50,15 +78,10 @@ const Skills = () => {
                         <section className="skills-card">
                             <h2>Libraries</h2>
                             <section className="grid grid-cols-3">
-                                <i class="icon-large devicon-opencv-plain"></i>
-                                <i class="icon-large devicon-numpy-original"></i>
-                                <i class="icon-large devicon-pandas-original"></i>
-                                <i class="icon-large devicon-pytorch-original"></i>
-                                {/* (eventually) tensorflow */}
-                                {/* matplotlib */}
-                                {/* beautifulsoup */}
-                                {/* PIL */}
-                                {/* Pomegranate */}
+                                {libraries.map((library, index) => (
+                                    <LibrarySection key={index} {...library} />
+                                ))}
+                                {/* matplotlib BeautifulSoup PIL pomegranate, (eventually) tensorflow*/}
                             </section>
                         </section>
 
@@ -66,19 +89,10 @@ const Skills = () => {
                         <section className="skills-card">
                             <h2>Developer Tools</h2>
                             <section className="grid grid-cols-3">
-                                {/* appian */}
-                                <i class="icon-large devicon-git-plain"></i>
-                                <i class="icon-large devicon-github-original"></i>
-                                <i class="icon-large devicon-vscode-plain"></i>
-                                <i class="icon-large devicon-matlab-plain"></i>
-                                <i class="icon-large devicon-anaconda-original"></i>
-                                <i class="icon-large devicon-photoshop-plain"></i>
-                                {/* vercel */}
-                                {/* supabase */}
-                                <i class="icon-large devicon-androidstudio-plain"></i>
-                                <i class="icon-large devicon-xcode-plain"></i>
-                                <i class="icon-large devicon-pycharm-plain"></i>
-                                <i class="icon-large devicon-blender-original"></i>
+                                {developerTools.map((tool, index) => (
+                                    <DeveloperToolSection key={index} {...tool} />
+                                ))}
+                                {/* Appian Vercel Supabase */}
                             </section>
                         </section>
                     </section>

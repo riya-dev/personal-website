@@ -1,0 +1,44 @@
+{
+"developer_tools": [
+    {
+      "iconClass": "icon-large devicon-git-plain",
+      "tool": "Git"
+    },
+    {
+      "iconClass": "icon-large devicon-github-original",
+      "tool": "GitHub"
+    },
+    {
+      "iconClass": "icon-large devicon-vscode-plain",
+      "tool": "VS Code"
+    },
+    {
+      "iconClass": "icon-large devicon-matlab-plain",
+      "tool": "MATLAB"
+    },
+    {
+      "iconClass": "icon-large devicon-anaconda-original",
+      "tool": "Anaconda"
+    },
+    {
+      "iconClass": "icon-large devicon-androidstudio-plain",
+      "tool": "Android Studio"
+    },
+    {
+      "iconClass": "icon-large devicon-xcode-plain",
+      "tool": "Xcode"
+    },
+    {
+      "iconClass": "icon-large devicon-pycharm-plain",
+      "tool": "PyCharm"
+    },
+    {
+        "iconClass": "icon-large devicon-photoshop-plain",
+        "tool": "Adobe Photoshop"
+    },
+    {
+      "iconClass": "icon-large devicon-blender-original",
+      "tool": "Blender"
+    }
+  ]
+}

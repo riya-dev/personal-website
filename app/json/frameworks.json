@@ -1,0 +1,20 @@
+{
+"frameworks": [
+    {
+      "iconClass": "icon-large devicon-react-original",
+      "framework": "React"
+    },
+    {
+      "iconClass": "icon-large devicon-nextjs-original",
+      "framework": "Next.js"
+    },
+    {
+      "iconClass": "icon-large devicon-tailwindcss-plain",
+      "framework": "Tailwind CSS"
+    },
+    {
+      "iconClass": "icon-large devicon-flutter-plain",
+      "framework": "Flutter"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+"languages": [
+    {
+      "iconClass": "icon-large devicon-cplusplus-plain-wordmark",
+      "language": "C++"
+    },
+    {
+      "iconClass": "icon-large devicon-java-plain",
+      "language": "Java"
+    },
+    {
+      "iconClass": "icon-large devicon-python-plain",
+      "language": "Python"
+    },
+    {
+      "iconClass": "icon-large devicon-javascript-plain",
+      "language": "JavaScript"
+    },
+    {
+      "iconClass": "icon-large devicon-html5-plain",
+      "language": "HTML"
+    },
+    {
+      "iconClass": "icon-large devicon-css3-plain",
+      "language": "CSS"
+    },
+    {
+      "iconClass": "icon-large devicon-mysql-plain",
+      "language": "MySQL"
+    },
+    {
+      "iconClass": "icon-large devicon-dart-plain",
+      "language": "Dart"
+    },
+    {
+      "iconClass": "icon-large devicon-julia-plain",
+      "language": "Julia"
+    },
+    {
+      "iconClass": "icon-large devicon-bash-plain",
+      "language": "Bash"
+    }
+  ]
+}
