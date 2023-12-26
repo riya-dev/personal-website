@@ -1,7 +1,7 @@
 .about-container {
     /* background-color: hsl(264, 34%, 49%); */
     background-color: rgb(199,169,246);
-    /* height: 100vh; */
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -21,8 +21,8 @@
     font-weight: bold;
     width: 90%;
     margin: 1rem auto;
+    margin-top:10vh;
     margin-bottom: 1rem;
-    /* padding-top: 6rem; */
 }
 
 .about-section h2 {
@@ -36,7 +36,7 @@
     width: 90%;
     margin: 1rem auto;
     font-weight: bold;
-    margin-bottom: 1.5rem;
+    margin-bottom: 5vh;
 }
 
 .about-description p{
