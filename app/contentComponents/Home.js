@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import '../styles/home.css'
 import Riya from '/public/static/images/pfp.jpg'
-import { RiArrowDownCircleLine } from 'react-icons/ri';
+import { FaArrowDown } from 'react-icons/fa';
 // "../../components/images/pfp.jpg"?
 
 const Home = () => {
@@ -23,9 +23,13 @@ const Home = () => {
 
                     {/* 리야 데브 */}
                     <h2 className="text-purple-900">Software Engineer • Innovator • Singer</h2>
-                    {/* <svg src={RiArrowDownCircleLine} className="animate-bounce w-12 h-12
-                            bg-purple-800 text-purple-300 shadow-lg" /> */}
-                    </section>
+
+                    <div className="arrow bounce">
+                        <a href="#about">
+                            <FaArrowDown className="text-purple-900" />
+                        </a>
+                    </div>
+                </section>
             </div>
         </>
     )
