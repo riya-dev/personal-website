@@ -1,6 +1,10 @@
 {
 "libraries": [
     {
+      "iconClass": "icon-large devicon-react-original",
+      "library": "React.js"
+    },
+    {
       "iconClass": "icon-large devicon-opencv-plain",
       "library": "OpenCV"
     },

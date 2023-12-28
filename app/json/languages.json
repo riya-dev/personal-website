@@ -5,7 +5,7 @@
       "language": "C++"
     },
     {
-      "iconClass": "icon-large devicon-java-plain",
+      "iconClass": "icon-lxarge devicon-java-plain",
       "language": "Java"
     },
     {
@@ -23,6 +23,14 @@
     {
       "iconClass": "icon-large devicon-css3-plain",
       "language": "CSS"
+    },
+    {
+      "iconClass": "icon-large devicon-sass-original",
+      "language": "SASS"
+    },
+    {
+      "iconClass": "icon-large devicon-typescript-plain",
+      "language": "TypeScript"
     },
     {
       "iconClass": "icon-large devicon-mysql-plain",

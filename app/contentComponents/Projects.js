@@ -49,9 +49,9 @@ const Projects = () => {
                         </section>
 
                         <section className="project-card">
-                            <h2>GMU Systems Biology Lab Internship</h2>
+                            <h2>Researching Progression of Alzheimer's Disease with Calcium Ion Concentration Algorithms</h2>
                             <Image src={assip}></Image>
-                            <h3>Java • Python • MATLAB • Anaconda • FORTRAN</h3>
+                            <h3>Java • Python (NumPy • Pandas • Matplotlib) • MATLAB • Spyder • Anaconda • FORTRAN</h3>
                         </section>
 
                         <section className="project-card">
