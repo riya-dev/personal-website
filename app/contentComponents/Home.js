@@ -2,7 +2,6 @@ import Image from 'next/image'
 import '../styles/home.css'
 import Riya from '/public/static/images/pfp.jpg'
 import { FaArrowDown } from 'react-icons/fa';
-// "../../components/images/pfp.jpg"?
 
 const Home = () => {
     return(
