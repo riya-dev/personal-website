@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import '../styles/home.css'
 import Riya from '/public/static/images/pfp.jpg'
-import { FaArrowDown } from 'react-icons/fa';
+import { RiArrowDropDownLine } from 'react-icons/ri';
 
 const Home = () => {
     return(
@@ -25,7 +25,7 @@ const Home = () => {
 
                     <div className="arrow bounce">
                         <a href="#about">
-                            <FaArrowDown className="text-purple-900" />
+                            <RiArrowDropDownLine size="72" className="text-purple-900" />
                         </a>
                     </div>
                 </section>

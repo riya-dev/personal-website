@@ -44,3 +44,17 @@
     box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
     margin-bottom: 15vh;
 }
+
+@media screen and (max-width: 767px) {
+    .education-box {
+        margin-bottom: 0vh;
+    }
+
+    .education-section h1{
+        margin-top:15vh;
+    }
+
+    .education-section h2 {
+        font-size: 1.5rem;
+    }
+}
