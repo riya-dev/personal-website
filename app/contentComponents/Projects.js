@@ -5,7 +5,6 @@ import fitted from '/public/static/images/projects/fitted.png'
 import othello from '/public/static/images/projects/othello.gif'
 import othello_runner from '/public/static/images/projects/othello_runner.png'
 import rotating_platonic_solid from '/public/static/images/projects/rotating_platonic_solid.gif'
-import coin_detection_og from '/public/static/images/projects/coin_detection/og.png'
 import coin_detection_bw from '/public/static/images/projects/coin_detection/bw.png'
 import coin_detection_identification from '/public/static/images/projects/coin_detection/identification.png'
 import coin_detection_results from '/public/static/images/projects/coin_detection/results.png'
@@ -15,6 +14,11 @@ import shortest_path_railroad_orange from '/public/static/images/projects/shorte
 import shortest_path_railroad_pink from '/public/static/images/projects/shortest_path_railroad_pink.png'
 import assip from '/public/static/images/projects/assip.gif'
 import sudoku from '/public/static/images/projects/sudoku.gif'
+import janus_load from '/public/static/images/projects/janus/1_load.png'
+import janus_login from '/public/static/images/projects/janus/2_login.png'
+import janus_group from '/public/static/images/projects/janus/3_group.png'
+import janus_profile from '/public/static/images/projects/janus/4_profile.png'
+import movie_match from '/public/static/images/projects/movie_match.png'
 
 const Projects = () => {
     return(
@@ -22,7 +26,16 @@ const Projects = () => {
             <div className="projects-container" id="projects">
                 <section className="projects-section">
                     <h1 className="text-purple-900">Projects</h1>
-                    <h2 className="text-purple-900 font-bold opacity-75 mb-2">(These are just some of my favorite projects. Find more on GitHub.)</h2>
+                    <h2 className="text-purple-900 font-bold opacity-75 mb-2">
+                        (These are just some of my favorite projects. Find more on {" "}
+                        <a href="https://github.com/riya-dev"
+                            className="text-purple-900 hover:text-blue-800 underline decoration-dotted"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            GitHub
+                        </a>
+                        .)
+                    </h2>
 
                     <section className="projects-grid md:grid md:grid-cols-2 md:gap-5">
 
@@ -86,9 +99,27 @@ const Projects = () => {
                         </section>
 
                         <section className="project-card">
+                            <h2>Janus Social Media Application</h2>
+                            <section className="grid grid-cols-4">
+                                <Image src={janus_load}></Image>
+                                <Image src={janus_login}></Image>
+                                <Image src={janus_group}></Image>
+                                <Image src={janus_profile}></Image>
+                            </section>
+                            <h3>Java • Android Studio • Adobe XD • MySQL</h3>
+                        </section>
+
+                        <section className="project-card">
                             <h2>This Website</h2>
                             <Image src={this_website}></Image>
                             <h3>Next.js • React • Tailwind CSS • HTML • CSS • Vercel</h3>
+                        </section>
+
+                        <section className="project-card">
+                            <h2>Movie Match (Currently Building)</h2>
+                            <Image src={movie_match}
+                                style={{ width: '60%', height: 'auto' }}></Image>
+                            <h3>Python • Flask • APIs • Next.js • React • SASS • TypeScript • CSS • Vercel</h3>
                         </section>
                     </section>
                 </section>
