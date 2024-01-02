@@ -5,12 +5,16 @@ import fitted from '/public/static/images/projects/fitted.png'
 import othello from '/public/static/images/projects/othello.gif'
 import othello_runner from '/public/static/images/projects/othello_runner.png'
 import rotating_platonic_solid from '/public/static/images/projects/rotating_platonic_solid.gif'
-import coin_detection from '/public/static/images/projects/coin_detection.png'
+import coin_detection_og from '/public/static/images/projects/coin_detection/og.png'
+import coin_detection_bw from '/public/static/images/projects/coin_detection/bw.png'
+import coin_detection_identification from '/public/static/images/projects/coin_detection/identification.png'
+import coin_detection_results from '/public/static/images/projects/coin_detection/results.png'
 import shortest_path_railroad from '/public/static/images/projects/shortest_path_railroad.png'
 import shortest_path_railroad_blue from '/public/static/images/projects/shortest_path_railroad_blue.png'
 import shortest_path_railroad_orange from '/public/static/images/projects/shortest_path_railroad_orange.png'
 import shortest_path_railroad_pink from '/public/static/images/projects/shortest_path_railroad_pink.png'
 import assip from '/public/static/images/projects/assip.gif'
+import sudoku from '/public/static/images/projects/sudoku.gif'
 
 const Projects = () => {
     return(
@@ -49,9 +53,9 @@ const Projects = () => {
                         </section>
 
                         <section className="project-card">
-                            <h2>Researching Progression of Alzheimer's Disease with Calcium Ion Concentration Algorithms</h2>
+                            <h2 className="text-sm leading-9">Researching Progression of Alzheimer's Disease with Calcium Ion Concentration Algorithms</h2>
                             <Image src={assip}
-                                style={{ width: '50%', height: 'auto' }}></Image>
+                                style={{ width: '60%', height: 'auto' }}></Image>
                             <h3>Java • Python (NumPy • Pandas • Matplotlib) • MATLAB • Spyder • Anaconda • FORTRAN</h3>
                         </section>
 
@@ -63,8 +67,22 @@ const Projects = () => {
 
                         <section className="project-card">
                             <h2>CV Coin Detection</h2>
-                            <Image src={coin_detection}></Image>
+                            <section className="grid grid-cols-10">
+                                <div className='col-span-4'>
+                                    <Image src={coin_detection_bw}></Image>
+                                </div>
+                                <div className='col-span-6'>
+                                    <Image src={coin_detection_identification}></Image>
+                                </div>
+                            </section>
+                            <Image src={coin_detection_results}></Image>
                             <h3>OpenCV • C++ • Hysterisis • Double Threshold • Intensity Gradients</h3>
+                        </section>
+
+                        <section className="project-card">
+                            <h2>AI Sudoku Solver</h2>
+                            <Image src={sudoku}></Image>
+                            <h3>Python • Recursive Backtracking • CSP</h3>
                         </section>
 
                         <section className="project-card">
