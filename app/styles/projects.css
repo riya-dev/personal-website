@@ -39,20 +39,21 @@
     margin: 1rem;
     box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2);
     align-self: stretch;
+    height: fit-content;
 }
 
 .project-card h2 {
     font-size: 2rem;
     font-weight: bold;
     white-space: wrap;
-    margin: .5rem 0 auto;
+    margin: .5rem 0;
 }
 
 .project-card h3 {
     font-size: 1.25rem;
     font-weight: normal;
     white-space: wrap;
-    align-self: flex-start;
+    /* align-self: flex-start; */
     margin: 1rem auto;
     opacity: 70%;
     position: relative;

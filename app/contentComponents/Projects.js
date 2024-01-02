@@ -18,10 +18,9 @@ const Projects = () => {
             <div className="projects-container" id="projects">
                 <section className="projects-section">
                     <h1 className="text-purple-900">Projects</h1>
-                    {/* make two columns here */}
-                    <h2 className="text-purple-900 font-medium opacity-75">(These are just some of my favorite projects. Find more on GitHub.)</h2>
+                    <h2 className="text-purple-900 font-bold opacity-75 mb-2">(These are just some of my favorite projects. Find more on GitHub.)</h2>
 
-                    <section className="projects-grid md:grid md:grid-cols-2 md:gap-8">
+                    <section className="projects-grid md:grid md:grid-cols-2 md:gap-5">
 
                         <section className="project-card">
                             <h2>Othello Game + AI Bot</h2>
@@ -51,7 +50,8 @@ const Projects = () => {
 
                         <section className="project-card">
                             <h2>Researching Progression of Alzheimer's Disease with Calcium Ion Concentration Algorithms</h2>
-                            <Image src={assip}></Image>
+                            <Image src={assip}
+                                style={{ width: '50%', height: 'auto' }}></Image>
                             <h3>Java • Python (NumPy • Pandas • Matplotlib) • MATLAB • Spyder • Anaconda • FORTRAN</h3>
                         </section>
 
