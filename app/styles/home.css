@@ -1,6 +1,7 @@
 .home-container {
     height: 100vh;
     display: grid;
+    align-items: center;
 }
 
 .home-section {
