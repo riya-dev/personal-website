@@ -38,7 +38,7 @@ const Links = () => {
                                 className="object-none justify-center object-center hover:scale-110
                                         transition-all duration-500 cursor-pointer p-1" />
                                         {/* w-80 h-80 */}
-                            <a className="socials-text">Twitter</a>
+                            <a className="socials-text">X (Twitter)</a>
                         </a>
                     </section>
                 </section>

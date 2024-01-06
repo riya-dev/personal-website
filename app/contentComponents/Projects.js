@@ -18,7 +18,8 @@ import janus_load from '/public/static/images/projects/janus/1_load.png'
 import janus_login from '/public/static/images/projects/janus/2_login.png'
 import janus_group from '/public/static/images/projects/janus/3_group.png'
 import janus_profile from '/public/static/images/projects/janus/4_profile.png'
-import movie_match from '/public/static/images/projects/movie_match.png'
+import movie_match from '/public/static/images/projects/movie_match.gif'
+import frat_app from '/public/static/images/projects/frat_app.gif'
 
 const Projects = () => {
     return(
@@ -60,9 +61,10 @@ const Projects = () => {
                         </section>
 
                         <section className="project-card">
-                            <h2>CV 3D Platonic Rotating Solid</h2>
-                            <Image src={rotating_platonic_solid}></Image>
-                            <h3>OpenCV • C++ • HighGUI Module </h3>
+                            <h2>Movie Match (Currently Building)</h2>
+                            <Image src={movie_match}
+                                style={{ width: '100%', height: 'auto' }}></Image>
+                            <h3>Python • Flask • APIs • Next.js • React • SASS • TypeScript • CSS • Vercel</h3>
                         </section>
 
                         <section className="project-card">
@@ -70,12 +72,6 @@ const Projects = () => {
                             <Image src={assip}
                                 style={{ width: '60%', height: 'auto' }}></Image>
                             <h3>Java • Python (NumPy • Pandas • Matplotlib) • MATLAB • Spyder • Anaconda • FORTRAN</h3>
-                        </section>
-
-                        <section className="project-card">
-                            <h2>FITTED</h2>
-                            <Image src={fitted}></Image>
-                            <h3>Python • BeautifulSoup Library • Supabase • Next.js • React • HTML • CSS • Figma • Vercel </h3>
                         </section>
 
                         <section className="project-card">
@@ -90,6 +86,26 @@ const Projects = () => {
                             </section>
                             <Image src={coin_detection_results}></Image>
                             <h3>OpenCV • C++ • Hysterisis • Double Threshold • Intensity Gradients</h3>
+                        </section>
+
+                        <section className="project-card">
+                            <h2>Tech Fraternity Mobile App</h2>
+                            <Image src={frat_app}
+                                style={{ width: '60%', height: 'auto' }}></Image>
+                            <h3>Dart • Flutter • Firebase</h3>
+                        </section>
+
+                        <section className="project-card">
+                            <h2>CV 3D Platonic Rotating Solid</h2>
+                            <Image src={rotating_platonic_solid}
+                                style={{ width: '70%', height: 'auto' }}></Image>
+                            <h3>OpenCV • C++ • HighGUI Module </h3>
+                        </section>
+
+                        <section className="project-card">
+                            <h2>FITTED</h2>
+                            <Image src={fitted}></Image>
+                            <h3>Python • BeautifulSoup Library • Supabase • Next.js • React • HTML • CSS • Figma • Vercel </h3>
                         </section>
 
                         <section className="project-card">
@@ -113,13 +129,6 @@ const Projects = () => {
                             <h2>This Website</h2>
                             <Image src={this_website}></Image>
                             <h3>Next.js • React • Tailwind CSS • HTML • CSS • Vercel</h3>
-                        </section>
-
-                        <section className="project-card">
-                            <h2>Movie Match (Currently Building)</h2>
-                            <Image src={movie_match}
-                                style={{ width: '60%', height: 'auto' }}></Image>
-                            <h3>Python • Flask • APIs • Next.js • React • SASS • TypeScript • CSS • Vercel</h3>
                         </section>
                     </section>
                 </section>
