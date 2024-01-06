@@ -8,13 +8,15 @@ const Home = () => {
         <>
             <div className="home-container" id="home">
                 <section className="home-section">
-                    <Image 
+                    {/* <Image 
                         src={Riya}
-                        alt="This is me"
+                        alt="Picture of Riya Dev in from of laptop with TJHSST sticker."
                         draggable="false"
-                    // add animation when clicking. explode confetti or music notes or something
-                        className="home-image object-none w-96 h-96 rounded-full self-center justify-center object-center
-                                    hover:scale-110 transition-all duration-500" /> 
+                        className="home-image rounded-full
+                                    hover:scale-110 transition-all duration-500" />  */}
+                    <div className="home-image-div"
+                        alt="Picture of Riya Dev with laptop with TJHSST sticker."></div>
+                    {/* add animation when clicking. explode confetti or music notes or something */}
 
                     <h1 className="highlight text-purple-900">
                         Riya Dev

@@ -2,7 +2,7 @@
     height: 100vh;
     display: grid;
     align-items: center;
-    background-image: radial-gradient(transparent, #F8F1F9 70%), url('data:image/svg+xml; charset=utf-8, <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 60 60"><path fill="%238a42ff" fill-opacity=".3" fill-rule="evenodd" d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/></svg>');
+    background-image: radial-gradient(transparent, #F8F1F9 80%), url('data:image/svg+xml; charset=utf-8, <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 60 60"><path fill="%238a42ff" fill-opacity=".3" fill-rule="evenodd" d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/></svg>');
 }
 
 .home-section {
@@ -13,13 +13,33 @@
     text-align: center;
 }
 
-.home-image {
+/* .home-image {
     justify-self: center;
     align-self: center;
-    object-fit: cover;
     margin-top: 7.5%;
-    /* margin: 3rem auto; */
+    width: 40vh;
+    height: 40vh;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+} */
+
+.home-image-div {
+    justify-self: center;
+    align-self: center;
+    width: 45vh;
+    height: 45vh;
+    margin-top: 7.5%;
+    border-radius: 50%;
+    background-image: url('../../public/static/images/pfp.jpg');
+    background-size: 130%;
+    background-position: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s, background-size 0.5s, box-shadow 0.5s;
+}
+
+.home-image-div:hover {
+    transform: scale(1.05);
+    background-size: 180%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
 .home-section h1 {
