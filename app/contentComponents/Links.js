@@ -13,7 +13,7 @@ const Links = () => {
                     <section className="socials-section md:grid md:grid-cols-3 md:gap-3">
                         <a href="https://github.com/riya-dev">
                             <Image
-                                src={github} alt="My GitHub: https://github.com/riya-dev!" draggable="false"
+                                src={github} alt="Riya Dev GitHub link: https://github.com/riya-dev" draggable="false"
                                 style={{width: 'auto', height: 'auto' }}
                                 className="object-none justify-center object-center hover:scale-110
                                         transition-all duration-500 cursor-pointer p-1" />
@@ -23,7 +23,7 @@ const Links = () => {
 
                         <a href="https://www.linkedin.com/in/riya-dev/">
                             <Image
-                                src={linkedin} alt="My LinkedIn!" draggable="false"
+                                src={linkedin} alt="Riya Dev LinkedIn link: https://www.linkedin.com/in/riya-dev/" draggable="false"
                                 style={{width: 'auto', height: 'auto' }}
                                 className="object-none justify-center object-center hover:scale-110
                                         transition-all duration-500 cursor-pointer p-1" />
@@ -33,7 +33,7 @@ const Links = () => {
 
                         <a href="https://twitter.com/ceoRiya">
                             <Image
-                                src={twitter} alt="My Twitter!" draggable="false"
+                                src={twitter} alt="Riya Dev Twitter link: https://twitter.com/ceoRiya" draggable="false"
                                 style={{ width: '75%', height: '75%', objectFit: 'cover' }}
                                 className="object-none justify-center object-center hover:scale-110
                                         transition-all duration-500 cursor-pointer p-1" />

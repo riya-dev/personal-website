@@ -14,10 +14,10 @@ const Education = () => {
                         <div>
                             <h2 className="text-purple-900">University of Michigan College of Engineering</h2>
                             <section className="education-box rounded-3xl grid grid-cols-4">
-                                <a href="https://cse.engin.umich.edu/news/">
+                                <a href="https://cse.engin.umich.edu/news/" alt="Riya Dev University of Michigan    College of Engineering">
                                     <Image
                                         src={umich}
-                                        alt="University of Michigan emblem"
+                                        alt="Riya Dev University of Michigan student emblem"
                                         draggable="false"
                                         style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                                         className="object-none col-span-1 justify-center object-center hover:scale-110
@@ -37,9 +37,9 @@ const Education = () => {
                         <div>
                             <h2 className="text-purple-900">Thomas Jefferson High School for Science and Technology</h2>
                             <section className="education-box rounded-3xl grid grid-cols-4">
-                                <a href="https://www.usnews.com/education/best-high-schools/virginia/districts/fairfax-county-public-schools/thomas-jefferson-high-school-for-science-and-technology-20461">
+                                <a href="https://www.usnews.com/education/best-high-schools/virginia/districts/fairfax-county-public-schools/thomas-jefferson-high-school-for-science-and-technology-20461" alt="Riya Dev Thomas Jefferson High School for Science and Technology (TJHSST) Alum">
                                     <Image src={tjhsst}
-                                        alt="TJHSST emblem"
+                                        alt="Riya Dev TJHSST emblem"
                                         draggable="false"
                                         style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                                         className="object-none col-span-1 justify-center hover:scale-110 ease-linear
