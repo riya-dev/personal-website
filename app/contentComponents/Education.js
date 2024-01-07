@@ -25,7 +25,7 @@ const Education = () => {
                                                 {/* w-80 h-80 */}
                                 </a>
                                 <section className="col-span-3 whitespace-normal self-center justify-center p-1">
-                                    <h3 className=" text-purple-400">Computer Science BSE, minor in Business</h3>
+                                    <h3 className="text-purple-400">Computer Science BSE, minor in Business</h3>
                                     {/* <h3 className=" text-purple-400 self-center justify-center p-1 text-normal"></h3> */}
                                     {/* <h3 className=" text-purple-400">Data Structures + Algorithms, Foundations of CS, 
                                         Discrete Math, Web Systems (Planned), Intro to Computer Organization (Planned), 

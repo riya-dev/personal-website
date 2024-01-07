@@ -1,5 +1,5 @@
 import '../styles/about.css'
-import { FaArrowDown } from 'react-icons/fa';
+import { RiArrowDropDownLine } from 'react-icons/ri';
 
 const About = () => {
     return (
@@ -31,14 +31,15 @@ const About = () => {
                             fashion shows, listening to my favorite podcasts (Crime Junkies and How I Built This 
                             with Guy Raz are my favorites), or solving expert-level Sudoku puzzles.
                         </p>
-
-                        {/* <div className="arrow bounce">
-                            <a href="#education">
-                                <FaArrowDown className="text-purple-900" />
-                            </a>
-                        </div> */}
-
                     </div>
+
+                    <div className="arrow bounce">
+                        <a href="#education"
+                            alt="Scroll to education section">
+                            <RiArrowDropDownLine size="72" className="text-purple-900" />
+                        </a>
+                    </div>
+
                 </section>
             </div>
         </>

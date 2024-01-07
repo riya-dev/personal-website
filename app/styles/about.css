@@ -2,17 +2,20 @@
     /* background-color: hsl(264, 34%, 49%); */
     background-color: rgb(199,169,246);
     width: 100%;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 5rem;
-    padding-bottom: 4rem;
 }
 
 .about-section {
     overflow: hidden;
     width: 100%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-section h1 {
@@ -20,7 +23,7 @@
     font-weight: bold;
     width: 90%;
     margin: 1rem auto;
-    margin-top:10vh;
+    margin-top: 15vh;
     margin-bottom: 1rem;
 }
 
@@ -35,13 +38,12 @@
     width: 90%;
     margin: 1rem auto;
     font-weight: bold;
-    margin-bottom: 5vh;
     align-items: center;
     justify-content: center;
 }
 
 .about-description p{
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     font-size: 1.5rem;
     text-align: center;
     color: white;
@@ -50,8 +52,7 @@
 .arrow {
     text-align: center;
     margin: auto;
-    font-size: 2em;
-    margin-bottom: 3.5%;
+    margin-bottom: 8vh;
     opacity: 70%;
 }
 

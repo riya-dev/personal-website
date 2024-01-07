@@ -32,14 +32,14 @@
     background-image: url('../../public/static/images/pfp.jpg');
     background-size: 130%;
     background-position: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
     transition: transform 0.5s, background-size 0.5s, box-shadow 0.5s;
 }
 
 .home-image-div:hover {
-    transform: scale(1.05);
+    transform: scale(1.08);
     background-size: 180%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .home-section h1 {

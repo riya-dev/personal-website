@@ -26,7 +26,8 @@ const Home = () => {
                     <h2 className="text-purple-900">Software Engineer • Innovator • Singer</h2>
 
                     <div className="arrow bounce">
-                        <a href="#about">
+                        <a href="#about"
+                            alt="Scroll to about section">
                             <RiArrowDropDownLine size="72" className="text-purple-900" />
                         </a>
                     </div>
