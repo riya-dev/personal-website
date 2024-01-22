@@ -12,9 +12,11 @@ const Education = () => {
                     
                     <section className="md:grid md:grid-cols-2 md:gap-1">
                         <div>
-                            <h2 className="text-purple-900">University of Michigan College of Engineering</h2>
+                            <h2 className="text-purple-900">
+                                University of Michigan College of Engineering
+                            </h2>
                             <section className="education-box rounded-3xl grid grid-cols-4">
-                                <a href="https://cse.engin.umich.edu/news/" alt="Riya Dev University of Michigan    College of Engineering">
+                                <a href="https://cse.engin.umich.edu/news/" alt="Riya Dev University of Michigan College of Engineering">
                                     <Image
                                         src={umich}
                                         alt="Riya Dev University of Michigan student emblem"
@@ -25,7 +27,12 @@ const Education = () => {
                                                 {/* w-80 h-80 */}
                                 </a>
                                 <section className="col-span-3 whitespace-normal self-center justify-center p-1">
-                                    <h3 className="text-purple-400">Computer Science BSE, minor in Business</h3>
+                                    <h3 className="text-purple-400">
+                                        Computer Science BSE, Business minor
+                                    </h3>
+                                    <h3>
+                                        #6 Undergraduate Engineering (2023)
+                                    </h3>
                                     {/* <h3 className=" text-purple-400 self-center justify-center p-1 text-normal"></h3> */}
                                     {/* <h3 className=" text-purple-400">Data Structures + Algorithms, Foundations of CS, 
                                         Discrete Math, Web Systems (Planned), Intro to Computer Organization (Planned), 
@@ -37,7 +44,7 @@ const Education = () => {
                         <div>
                             <h2 className="text-purple-900">Thomas Jefferson High School for Science and Technology</h2>
                             <section className="education-box rounded-3xl grid grid-cols-4">
-                                <a href="https://www.usnews.com/education/best-high-schools/virginia/districts/fairfax-county-public-schools/thomas-jefferson-high-school-for-science-and-technology-20461" alt="Riya Dev Thomas Jefferson High School for Science and Technology (TJHSST) Alum">
+                                <a href="https://en.wikipedia.org/wiki/Thomas_Jefferson_High_School_for_Science_and_Technology" alt="Riya Dev Thomas Jefferson High School for Science and Technology (TJHSST) Alum">
                                     <Image src={tjhsst}
                                         alt="Riya Dev TJHSST emblem"
                                         draggable="false"
@@ -47,7 +54,10 @@ const Education = () => {
                                 </a>
                                 <section className="col-span-3 whitespace-normal self-center justify-center p-1">
                                     {/* w-36 h-36  */}
-                                    <h3>#1 High School in USA National Rankings </h3>
+                                    <h3>
+                                        #1 High School in National Rankings
+                                        <div className="font-normal"> by U.S. News & World Report, Newsweek, and Business Insider</div>
+                                    </h3>
                                     {/* <h3 className=" text-purple-400">Artificial Intelligence I & II, Computer Vision I & II, Mobile/Web Application Development Research Lab, AP Computer Science + Data Structures, Spanish I,II,III</h3> */}
                                 </section>
                             </section>
