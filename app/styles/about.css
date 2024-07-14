@@ -1,6 +1,6 @@
 .about-container {
-    /* background-color: hsl(264, 34%, 49%); */
-    background-color: rgb(199,169,246);
+    /* background-color: rgb(199,169,246); */
+    background-color: rgb(255, 255, 255);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -38,15 +38,14 @@
     width: 90%;
     margin: 1rem auto;
     font-weight: bold;
-    align-items: center;
-    justify-content: center;
+    text-align: left;
+    color:rgb(106, 27, 154);
 }
 
 .about-description p{
     margin-bottom: 1rem;
     font-size: 1.5rem;
-    text-align: center;
-    color: white;
+    text-align: left;
 }
 
 .arrow {
