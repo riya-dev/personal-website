@@ -21,19 +21,15 @@ const About = () => {
                 Pomegranate for neural networks and Pillow for image analysis.
                 Venturing into the realm of image-based AI, I later explored
                 Computer Vision. I've also undertaken several internships over
-                the past few years. In the field of Systems Biology, I developed
-                algorithms to simulate calcium ion concentrations for
-                Alzheimer's Detection. Within the telecommunications realm, I
-                developed a new service center with full-stack development.
-                Forever a builder, I continuously expand my technological
-                toolkit to kickstart more projects and build impactful
-                innovations.
+                the past few years. Forever a builder, I continuously expand my
+                technological toolkit to kickstart more projects and build
+                impactful innovations.
               </p>
               <p className="tracking-tight font-normal">
                 When I'm not coding, you can find me singing to Adele, gushing
                 over the latest fashion shows, listening to my favorite podcasts
-                (Crime Junkies and How I Built This with Guy Raz are my
-                favorites), or solving expert-level Sudoku puzzles.
+                (Morning Brew Daily and How I Built This are my favorites), or
+                trading in the markets.
               </p>
             </div>
 
