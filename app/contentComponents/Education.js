@@ -35,9 +35,7 @@ const Education = () => {
                     {/* w-80 h-80 */}
                   </a>
                   <section className="col-span-3 whitespace-normal self-center justify-center p-1">
-                    <h3 className="text-purple-400">
-                      Computer Science BSE, Business minor
-                    </h3>
+                    <h3>Computer Science B.S.E., Minor in Business</h3>
                     <h3>#6 Undergraduate Engineering (2023)</h3>
                     {/* <h3 className=" text-purple-400 self-center justify-center p-1 text-normal"></h3> */}
                     {/* <h3 className=" text-purple-400">Data Structures + Algorithms, Foundations of CS, 
@@ -76,7 +74,7 @@ const Education = () => {
                       <div className="font-normal">
                         {" "}
                         by U.S. News & World Report, Newsweek, and Business
-                        Insider
+                        Insider at time of attendance
                       </div>
                     </h3>
                     {/* <h3 className=" text-purple-400">Artificial Intelligence I & II, Computer Vision I & II, Mobile/Web Application Development Research Lab, AP Computer Science + Data Structures, Spanish I,II,III</h3> */}
