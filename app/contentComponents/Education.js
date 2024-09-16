@@ -5,86 +5,83 @@ import tjhsst from '/public/static/images/tjhsst.png'
 
 const Education = () => {
     return (
-      <>
-        <div className="education-container" id="education">
-          <section className="education-section">
-            <h1 className="text-purple-900 text-center">Education</h1>
+      <div
+        className="education-container bg-gradient-to-b from-purple-100 to-white flex items-center justify-center min-h-screen"
+        id="education"
+      >
+        <section className="education-section max-w-6xl mx-auto px-6 text-center mb-20">
+          <h1 className="text-purple-900 text-4xl font-bold text-center mb-3">
+            Education
+          </h1>
 
-            <section className="md:grid md:grid-cols-2 md:gap-1">
-              <div>
-                <h2 className="text-purple-900">
+          {/* Education grid */}
+          <div className="grid md:grid-cols-2 gap-12 justify-items-center">
+            {/* University of Michigan Card */}
+            <div className="education-card bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+              <div className="bg-purple-100 p-6 flex items-center justify-center">
+                <a
+                  href="https://cse.engin.umich.edu/news/"
+                  alt="Riya Dev University of Michigan College of Engineering"
+                  className="relative"
+                >
+                  <Image
+                    src={umich}
+                    alt="Riya Dev University of Michigan student emblem"
+                    width={120}
+                    height={120}
+                    className="rounded-full border-4 border-white shadow-md"
+                  />
+                </a>
+              </div>
+              <div className="p-6 text-center">
+                <h2 className="text-purple-900 text-2xl font-bold mb-4">
                   University of Michigan College of Engineering
                 </h2>
-                <section className="education-box rounded-3xl grid grid-cols-4">
-                  <a
-                    href="https://cse.engin.umich.edu/news/"
-                    alt="Riya Dev University of Michigan College of Engineering"
-                  >
-                    <Image
-                      src={umich}
-                      alt="Riya Dev University of Michigan student emblem"
-                      draggable="false"
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                      }}
-                      className="object-none col-span-1 justify-center object-center hover:scale-110
-                                                transition-all duration-300 cursor-pointer p-1 shadow-xl rounded-full"
-                    />
-                    {/* w-80 h-80 */}
-                  </a>
-                  <section className="col-span-3 whitespace-normal self-center justify-center p-1">
-                    <h3>Computer Science B.S.E., Minor in Business</h3>
-                    <h3>#6 Undergraduate Engineering (2023)</h3>
-                    {/* <h3 className=" text-purple-400 self-center justify-center p-1 text-normal"></h3> */}
-                    {/* <h3 className=" text-purple-400">Data Structures + Algorithms, Foundations of CS, 
-                                        Discrete Math, Web Systems (Planned), Intro to Computer Organization (Planned), 
-                                        Computational Linear Algebra, Multivariable Calculus III, Robotics Mechanisms</h3> */}
-                  </section>
-                </section>
+                <h3 className="text-xl text-gray-800 mb-2">
+                  Computer Science B.S.E.
+                </h3>
+                <p className="text-gray-600 mb-2">
+                  Minors in Statistics and Business
+                </p>
+                <p className="text-purple-600 font-semibold">
+                  #6 Undergraduate Engineering (2023)
+                </p>
               </div>
+            </div>
 
-              <div>
-                <h2 className="text-purple-900">
+            {/* TJHSST Card */}
+            <div className="education-card bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+              <div className="bg-purple-100 p-6 flex items-center justify-center">
+                <a
+                  href="https://en.wikipedia.org/wiki/Thomas_Jefferson_High_School_for_Science_and_Technology"
+                  alt="Riya Dev Thomas Jefferson High School for Science and Technology (TJHSST) Alum"
+                  className="relative"
+                >
+                  <Image
+                    src={tjhsst}
+                    alt="Riya Dev TJHSST emblem"
+                    width={120}
+                    height={120}
+                    className="rounded-full border-4 border-white shadow-md"
+                  />
+                </a>
+              </div>
+              <div className="p-6 text-center">
+                <h2 className="text-purple-900 text-2xl font-bold mb-4">
                   Thomas Jefferson High School for Science and Technology
                 </h2>
-                <section className="education-box rounded-3xl grid grid-cols-4">
-                  <a
-                    href="https://en.wikipedia.org/wiki/Thomas_Jefferson_High_School_for_Science_and_Technology"
-                    alt="Riya Dev Thomas Jefferson High School for Science and Technology (TJHSST) Alum"
-                  >
-                    <Image
-                      src={tjhsst}
-                      alt="Riya Dev TJHSST emblem"
-                      draggable="false"
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                      }}
-                      className="object-none col-span-1 justify-center hover:scale-110 ease-linear
-                                                transition-all duration-300 cursor-pointer p-1 shadow-xl rounded-full"
-                    />
-                  </a>
-                  <section className="col-span-3 whitespace-normal self-center justify-center p-1">
-                    {/* w-36 h-36  */}
-                    <h3>
-                      #1 High School in National Rankings
-                      <div className="font-normal">
-                        {" "}
-                        by U.S. News & World Report, Newsweek, and Business
-                        Insider at time of attendance
-                      </div>
-                    </h3>
-                    {/* <h3 className=" text-purple-400">Artificial Intelligence I & II, Computer Vision I & II, Mobile/Web Application Development Research Lab, AP Computer Science + Data Structures, Spanish I,II,III</h3> */}
-                  </section>
-                </section>
+                <h3 className="text-xl text-gray-800 mb-2">
+                  #1 High School in National Rankings
+                </h3>
+                <p className="text-gray-600">
+                  by U.S. News & World Report, Newsweek, and Business Insider at
+                  time of attendance
+                </p>
               </div>
-            </section>
-          </section>
-        </div>
-      </>
+            </div>
+          </div>
+        </section>
+      </div>
     );
 }
 
