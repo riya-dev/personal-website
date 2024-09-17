@@ -17,7 +17,7 @@ const Home = () => {
           <div
             className="home-image-div"
             alt="Picture of Riya Dev using laptop with TJHSST sticker."
-          ></div>
+          />
           {/* add animation when clicking. explode confetti or music notes or something */}
 
           <h1 className="highlight text-purple-900">Riya Dev</h1>
