@@ -10,7 +10,7 @@ const Education = () => {
         id="education"
       >
         <section className="education-section max-w-6xl mx-auto px-6 text-center mb-20">
-          <h1 className="text-purple-900 text-4xl font-bold text-center mb-3">
+          <h1 className="text-purple-900 text-4xl font-bold text-center mb-4 auto">
             Education
           </h1>
 
@@ -34,7 +34,7 @@ const Education = () => {
                 </a>
               </div>
               <div className="p-6 text-center">
-                <h2 className="text-purple-900 text-2xl font-bold mb-4 m-auto">
+                <h2 className="text-purple-900 text-2xl font-bold mb-6 m-auto">
                   University of Michigan College of Engineering
                 </h2>
                 <h3 className="text-xl text-gray-800">
@@ -68,20 +68,20 @@ const Education = () => {
                 </a>
               </div>
               <div className="p-6 text-center">
-                <h2 className="text-purple-900 text-2xl font-bold mb-4 m-auto">
-                  Thomas Jefferson High School for Science and Technology
+                <h2 className="text-purple-900 text-2xl font-bold mb-6 m-auto">
+                  Thomas Jefferson HS for Science and Technology
                 </h2>
-                <h3 className="text-xl text-gray-800 mb-4">
+                {/* <h3 className="text-xl text-gray-800 mb-4">
                   Artificial Intelligence, Computer Vision, Web + Mobile
                   Research
-                </h3>
+                </h3> */}
                 <p className="text-purple-600 font-semibold">
                   #1 High School in National Rankings
                 </p>
                 {/* <h3 className="text-purple-600 font-semibold">
                   #1 High School in National Rankings
                 </h3> */}
-                <p className="text-gray-600">
+                <p className="text-gray-600 font-medium">
                   by U.S. News & World Report, Newsweek, and Business Insider at
                   time of attendance
                 </p>
