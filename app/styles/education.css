@@ -6,13 +6,6 @@
     text-align: center;
 }
 
-.education-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .education-section h1 {
     font-size: 3rem;
     font-weight: bold;
