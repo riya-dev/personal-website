@@ -54,3 +54,22 @@
     src: local("GilroyBold"), url(../public/fonts/Gilroy-Bold.woff) format('woff');
     font-weight: 700;
 } */
+
+/* New components for navbar to display on scroll */
+.navbar {
+  height: 4rem; /* Adjust based on the size you want */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar.bg-transparent {
+  background-color: transparent;
+}
+
+.navbar.bg-white {
+  background-color: white;
+}
+
+/* Add shadow when scrolling */
+.navbar.shadow-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow when scrolled */
+}
