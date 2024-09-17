@@ -44,7 +44,7 @@ const Education = () => {
                   Minors in Statistics and Business
                 </p>
                 <p className="text-purple-600 font-semibold">
-                  #6 Undergraduate Engineering (2023) <br />
+                  #5 Undergraduate Engineering (2024) <br />
                   #4 Undergraduate Business (2024)
                 </p>
               </div>
