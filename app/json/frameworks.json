@@ -2,19 +2,19 @@
 "frameworks": [
   {
     "iconClass": "icon-large devicon-flask-original",
-    "framework": "Flask"
+    "name": "Flask"
   },
   {
     "iconClass": "icon-large devicon-nextjs-original",
-    "framework": "Next.js"
+    "name": "Next.js"
   },
   {
     "iconClass": "icon-large devicon-tailwindcss-plain",
-    "framework": "Tailwind CSS"
+    "name": "Tailwind CSS"
   },
   {
     "iconClass": "icon-large devicon-flutter-plain",
-    "framework": "Flutter"
+    "name": "Flutter"
   }
-  ]
+]
 }

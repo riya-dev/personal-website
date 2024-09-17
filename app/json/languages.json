@@ -1,52 +1,52 @@
 {
 "languages": [
-    {
-      "iconClass": "icon-large devicon-cplusplus-plain-wordmark",
-      "language": "C++"
-    },
-    {
-      "iconClass": "icon-large devicon-java-plain",
-      "language": "Java"
-    },
-    {
-      "iconClass": "icon-large devicon-python-plain",
-      "language": "Python"
-    },
-    {
-      "iconClass": "icon-large devicon-javascript-plain",
-      "language": "JavaScript"
-    },
-    {
-      "iconClass": "icon-large devicon-html5-plain",
-      "language": "HTML"
-    },
-    {
-      "iconClass": "icon-large devicon-css3-plain",
-      "language": "CSS"
-    },
-    {
-      "iconClass": "icon-large devicon-sass-original",
-      "language": "SASS"
-    },
-    {
-      "iconClass": "icon-large devicon-typescript-plain",
-      "language": "TypeScript"
-    },
-    {
-      "iconClass": "icon-large devicon-mysql-plain",
-      "language": "MySQL"
-    },
-    {
-      "iconClass": "icon-large devicon-dart-plain",
-      "language": "Dart"
-    },
-    {
-      "iconClass": "icon-large devicon-julia-plain",
-      "language": "Julia"
-    },
-    {
-      "iconClass": "icon-large devicon-bash-plain",
-      "language": "Bash"
-    }
-  ]
+  {
+    "iconClass": "icon-large devicon-cplusplus-plain-wordmark",
+    "name": "C++"
+  },
+  {
+    "iconClass": "icon-large devicon-java-plain",
+    "name": "Java"
+  },
+  {
+    "iconClass": "icon-large devicon-python-plain",
+    "name": "Python"
+  },
+  {
+    "iconClass": "icon-large devicon-javascript-plain",
+    "name": "JavaScript"
+  },
+  {
+    "iconClass": "icon-large devicon-html5-plain",
+    "name": "HTML"
+  },
+  {
+    "iconClass": "icon-large devicon-css3-plain",
+    "name": "CSS"
+  },
+  {
+    "iconClass": "icon-large devicon-sass-original",
+    "name": "SASS"
+  },
+  {
+    "iconClass": "icon-large devicon-typescript-plain",
+    "name": "TypeScript"
+  },
+  {
+    "iconClass": "icon-large devicon-mysql-plain",
+    "name": "MySQL"
+  },
+  {
+    "iconClass": "icon-large devicon-dart-plain",
+    "name": "Dart"
+  },
+  {
+    "iconClass": "icon-large devicon-julia-plain",
+    "name": "Julia"
+  },
+  {
+    "iconClass": "icon-large devicon-bash-plain",
+    "name": "Bash"
+  }
+]
 }

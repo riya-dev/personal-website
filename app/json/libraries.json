@@ -1,24 +1,24 @@
 {
 "libraries": [
-    {
-      "iconClass": "icon-large devicon-react-original",
-      "library": "React.js"
-    },
-    {
-      "iconClass": "icon-large devicon-opencv-plain",
-      "library": "OpenCV"
-    },
-    {
-      "iconClass": "icon-large devicon-numpy-original",
-      "library": "NumPy"
-    },
-    {
-      "iconClass": "icon-large devicon-pandas-original",
-      "library": "Pandas"
-    },
-    {
-      "iconClass": "icon-large devicon-pytorch-original",
-      "library": "PyTorch"
-    }
-  ]
+  {
+    "iconClass": "icon-large devicon-react-original",
+    "name": "React.js"
+  },
+  {
+    "iconClass": "icon-large devicon-opencv-plain",
+    "name": "OpenCV"
+  },
+  {
+    "iconClass": "icon-large devicon-numpy-original",
+    "name": "NumPy"
+  },
+  {
+    "iconClass": "icon-large devicon-pandas-original",
+    "name": "Pandas"
+  },
+  {
+    "iconClass": "icon-large devicon-pytorch-original",
+    "name": "PyTorch"
+  }
+]
 }
