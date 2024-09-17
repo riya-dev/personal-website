@@ -37,10 +37,10 @@ const Education = () => {
                 <h2 className="text-purple-900 text-2xl font-bold mb-6 m-auto">
                   University of Michigan College of Engineering
                 </h2>
-                <h3 className="text-xl text-gray-800">
+                <h3 className="text-xl text-gray-800 font-semibold">
                   Computer Science B.S.E.
                 </h3>
-                <p className="text-gray-600 mb-4 font-medium">
+                <p className="text-xl text-gray-600 mb-4 font-medium">
                   Minors in Statistics and Business
                 </p>
                 <p className="text-purple-600 font-semibold">
