@@ -25,17 +25,16 @@
 .education-section h2 {
     font-size: 2rem;
     width: 90%;
-    margin: 1rem auto;
+    /* margin: auto; */
     font-weight: bold;
 }
 
 .education-section h3 {
     font-size:1.25rem;
     text-wrap: true;
-    margin:1rem;
     font-weight:bold;
     text-align: center;
-    color: rgb(123, 31, 162);
+    /* color: rgb(123, 31, 162); */
 }
 
 .education-box{

@@ -6,7 +6,7 @@ import tjhsst from '/public/static/images/tjhsst.png'
 const Education = () => {
     return (
       <div
-        className="education-container bg-gradient-to-b from-purple-100 to-white flex items-center justify-center min-h-screen"
+        className="education-container bg-gradient-to-b from-purple-100 to-white flex align-middle justify-center items-center min-h-screen m-0 auto"
         id="education"
       >
         <section className="education-section max-w-6xl mx-auto px-6 text-center mb-20">
@@ -27,24 +27,25 @@ const Education = () => {
                   <Image
                     src={umich}
                     alt="Riya Dev University of Michigan student emblem"
-                    width={120}
-                    height={120}
+                    width={135}
+                    height={135}
                     className="rounded-full border-4 border-white shadow-md"
                   />
                 </a>
               </div>
               <div className="p-6 text-center">
-                <h2 className="text-purple-900 text-2xl font-bold mb-4">
+                <h2 className="text-purple-900 text-2xl font-bold mb-4 m-auto">
                   University of Michigan College of Engineering
                 </h2>
-                <h3 className="text-xl text-gray-800 mb-2">
+                <h3 className="text-xl text-gray-800">
                   Computer Science B.S.E.
                 </h3>
-                <p className="text-gray-600 mb-2">
+                <p className="text-gray-600 mb-4 font-medium">
                   Minors in Statistics and Business
                 </p>
                 <p className="text-purple-600 font-semibold">
-                  #6 Undergraduate Engineering (2023)
+                  #6 Undergraduate Engineering (2023) <br />
+                  #4 Undergraduate Business (2024)
                 </p>
               </div>
             </div>
@@ -60,19 +61,26 @@ const Education = () => {
                   <Image
                     src={tjhsst}
                     alt="Riya Dev TJHSST emblem"
-                    width={120}
-                    height={120}
+                    width={135}
+                    height={135}
                     className="rounded-full border-4 border-white shadow-md"
                   />
                 </a>
               </div>
               <div className="p-6 text-center">
-                <h2 className="text-purple-900 text-2xl font-bold mb-4">
+                <h2 className="text-purple-900 text-2xl font-bold mb-4 m-auto">
                   Thomas Jefferson High School for Science and Technology
                 </h2>
-                <h3 className="text-xl text-gray-800 mb-2">
-                  #1 High School in National Rankings
+                <h3 className="text-xl text-gray-800 mb-4">
+                  Artificial Intelligence, Computer Vision, Web + Mobile
+                  Research
                 </h3>
+                <p className="text-purple-600 font-semibold">
+                  #1 High School in National Rankings
+                </p>
+                {/* <h3 className="text-purple-600 font-semibold">
+                  #1 High School in National Rankings
+                </h3> */}
                 <p className="text-gray-600">
                   by U.S. News & World Report, Newsweek, and Business Insider at
                   time of attendance
