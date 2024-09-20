@@ -28,7 +28,7 @@ const Projects = () => {
           <section className="projects-section">
             <h1 className="text-purple-900">Projects</h1>
             <h2 className="text-purple-900 font-bold opacity-75 mb-2">
-              (These are just some of my favorite projects. Find more on{" "}
+              (These are some of my favorite projects. Find more on{" "}
               <a
                 href="https://github.com/riya-dev"
                 className="text-purple-900 hover:text-blue-800 underline decoration-dotted"
