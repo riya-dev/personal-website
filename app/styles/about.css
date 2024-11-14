@@ -94,6 +94,12 @@
     width: 75px;
     display: inline-block;
   }
+
+  @media (max-width: 768px) {
+    .logo-ribbon-content {
+      gap: 4rem; /* Reduced spacing for phone-sized screens */
+    }
+  }
   
   @keyframes scroll {
     from {

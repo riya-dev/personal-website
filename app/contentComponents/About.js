@@ -48,35 +48,8 @@ const About = () => {
                   className="logo"
                 />
                 <img
-                  src="/static/logos/engineering.png"
-                  alt="Engineering"
-                  className="logo"
-                />
-                <img
-                  src="/static/logos/comma.png"
-                  alt="Comma Capital"
-                  className="logo"
-                />
-                <img
-                  src="/static/logos/jackpot.png"
-                  alt="Jackpot"
-                  className="logo"
-                />
-                <img
-                  src="/static/logos/foundess.png"
-                  alt="Foundess"
-                  className="logo"
-                />
-                {/* Repeat logos for continuous scrolling */}
-                <img
-                  src="/static/logos/amazon.png"
-                  alt="Amazon"
-                  className="logo"
-                />
-                <img src="/static/logos/ross.jpg" alt="Ross" className="logo" />
-                <img
-                  src="/static/logos/tjhsst.png"
-                  alt="TJHSST"
+                  src="/static/logos/v1michigan.jpeg"
+                  alt="V1 @ Michigan"
                   className="logo"
                 />
                 <img
@@ -99,6 +72,7 @@ const About = () => {
                   alt="Foundess"
                   className="logo"
                 />
+
                 <img
                   src="/static/logos/amazon.png"
                   alt="Amazon"
@@ -108,6 +82,48 @@ const About = () => {
                 <img
                   src="/static/logos/tjhsst.png"
                   alt="TJHSST"
+                  className="logo"
+                />
+                <img
+                  src="/static/logos/v1michigan.jpeg"
+                  alt="V1 @ Michigan"
+                  className="logo"
+                />
+                <img
+                  src="/static/logos/engineering.png"
+                  alt="Engineering"
+                  className="logo"
+                />
+                <img
+                  src="/static/logos/comma.png"
+                  alt="Comma Capital"
+                  className="logo"
+                />
+                <img
+                  src="/static/logos/jackpot.png"
+                  alt="Jackpot"
+                  className="logo"
+                />
+                <img
+                  src="/static/logos/foundess.png"
+                  alt="Foundess"
+                  className="logo"
+                />
+
+                <img
+                  src="/static/logos/amazon.png"
+                  alt="Amazon"
+                  className="logo"
+                />
+                <img src="/static/logos/ross.jpg" alt="Ross" className="logo" />
+                <img
+                  src="/static/logos/tjhsst.png"
+                  alt="TJHSST"
+                  className="logo"
+                />
+                <img
+                  src="/static/logos/v1michigan.jpeg"
+                  alt="V1 @ Michigan"
                   className="logo"
                 />
                 <img
