@@ -37,79 +37,97 @@ const About = () => {
             <div className="logo-ribbon">
               <div className="logo-ribbon-content">
                 <img
-                  src="/static/logos/logo1.png"
-                  alt="Logo 1"
+                  src="/static/logos/amazon.png"
+                  alt="Amazon"
+                  className="logo"
+                />
+                <img src="/static/logos/ross.jpg" alt="Ross" className="logo" />
+                <img
+                  src="/static/logos/tjhsst.png"
+                  alt="TJHSST"
                   className="logo"
                 />
                 <img
-                  src="/static/logos/logo2.png"
-                  alt="Logo 2"
+                  src="/static/logos/engineering.png"
+                  alt="Engineering"
                   className="logo"
                 />
                 <img
-                  src="/static/logos/logo3.png"
-                  alt="Logo 3"
+                  src="/static/logos/comma.png"
+                  alt="Comma Capital"
                   className="logo"
                 />
                 <img
-                  src="/static/logos/logo4.png"
-                  alt="Logo 4"
+                  src="/static/logos/jackpot.png"
+                  alt="Jackpot"
                   className="logo"
                 />
                 <img
-                  src="/static/logos/logo5.png"
-                  alt="Logo 5"
+                  src="/static/logos/foundess.png"
+                  alt="Foundess"
                   className="logo"
                 />
                 {/* Repeat logos for continuous scrolling */}
                 <img
-                  src="/static/logos/logo1.png"
-                  alt="Logo 1"
+                  src="/static/logos/amazon.png"
+                  alt="Amazon"
+                  className="logo"
+                />
+                <img src="/static/logos/ross.jpg" alt="Ross" className="logo" />
+                <img
+                  src="/static/logos/tjhsst.png"
+                  alt="TJHSST"
                   className="logo"
                 />
                 <img
-                  src="/static/logos/logo2.png"
-                  alt="Logo 2"
+                  src="/static/logos/engineering.png"
+                  alt="Engineering"
                   className="logo"
                 />
                 <img
-                  src="/static/logos/logo3.png"
-                  alt="Logo 3"
+                  src="/static/logos/comma.png"
+                  alt="Comma Capital"
                   className="logo"
                 />
                 <img
-                  src="/static/logos/logo4.png"
-                  alt="Logo 4"
+                  src="/static/logos/jackpot.png"
+                  alt="Jackpot"
                   className="logo"
                 />
                 <img
-                  src="/static/logos/logo5.png"
-                  alt="Logo 5"
+                  src="/static/logos/foundess.png"
+                  alt="Foundess"
                   className="logo"
                 />
                 <img
-                  src="/static/logos/logo1.png"
-                  alt="Logo 1"
+                  src="/static/logos/amazon.png"
+                  alt="Amazon"
+                  className="logo"
+                />
+                <img src="/static/logos/ross.jpg" alt="Ross" className="logo" />
+                <img
+                  src="/static/logos/tjhsst.png"
+                  alt="TJHSST"
                   className="logo"
                 />
                 <img
-                  src="/static/logos/logo2.png"
-                  alt="Logo 2"
+                  src="/static/logos/engineering.png"
+                  alt="Engineering"
                   className="logo"
                 />
                 <img
-                  src="/static/logos/logo3.png"
-                  alt="Logo 3"
+                  src="/static/logos/comma.png"
+                  alt="Comma Capital"
                   className="logo"
                 />
                 <img
-                  src="/static/logos/logo4.png"
-                  alt="Logo 4"
+                  src="/static/logos/jackpot.png"
+                  alt="Jackpot"
                   className="logo"
                 />
                 <img
-                  src="/static/logos/logo5.png"
-                  alt="Logo 5"
+                  src="/static/logos/foundess.png"
+                  alt="Foundess"
                   className="logo"
                 />
               </div>

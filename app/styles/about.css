@@ -85,7 +85,7 @@
   
   .logo-ribbon-content {
     display: flex;
-    gap: 5rem;
+    gap: 8rem;
     animation: scroll 30s linear infinite;
   }
   
