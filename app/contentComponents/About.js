@@ -34,6 +34,87 @@ const About = () => {
               </p>
             </div>
 
+            <div className="logo-ribbon">
+              <div className="logo-ribbon-content">
+                <img
+                  src="/static/logos/logo1.png"
+                  alt="Logo 1"
+                  className="logo"
+                />
+                <img
+                  src="/static/logos/logo2.png"
+                  alt="Logo 2"
+                  className="logo"
+                />
+                <img
+                  src="/static/logos/logo3.png"
+                  alt="Logo 3"
+                  className="logo"
+                />
+                <img
+                  src="/static/logos/logo4.png"
+                  alt="Logo 4"
+                  className="logo"
+                />
+                <img
+                  src="/static/logos/logo5.png"
+                  alt="Logo 5"
+                  className="logo"
+                />
+                {/* Repeat logos for continuous scrolling */}
+                <img
+                  src="/static/logos/logo1.png"
+                  alt="Logo 1"
+                  className="logo"
+                />
+                <img
+                  src="/static/logos/logo2.png"
+                  alt="Logo 2"
+                  className="logo"
+                />
+                <img
+                  src="/static/logos/logo3.png"
+                  alt="Logo 3"
+                  className="logo"
+                />
+                <img
+                  src="/static/logos/logo4.png"
+                  alt="Logo 4"
+                  className="logo"
+                />
+                <img
+                  src="/static/logos/logo5.png"
+                  alt="Logo 5"
+                  className="logo"
+                />
+                <img
+                  src="/static/logos/logo1.png"
+                  alt="Logo 1"
+                  className="logo"
+                />
+                <img
+                  src="/static/logos/logo2.png"
+                  alt="Logo 2"
+                  className="logo"
+                />
+                <img
+                  src="/static/logos/logo3.png"
+                  alt="Logo 3"
+                  className="logo"
+                />
+                <img
+                  src="/static/logos/logo4.png"
+                  alt="Logo 4"
+                  className="logo"
+                />
+                <img
+                  src="/static/logos/logo5.png"
+                  alt="Logo 5"
+                  className="logo"
+                />
+              </div>
+            </div>
+
             <div className="arrow bounce">
               <a href="#education" alt="Scroll to education section">
                 <RiArrowDropDownLine
