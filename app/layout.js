@@ -13,7 +13,7 @@ const poppins = Poppins({
 
 export const metadata = {
   title: 'Riya Dev',
-  description: 'Riya Dev personal website. I am passionate about innovation and impact with a background in public speaking/varsity debate, computer science, start-ups, and research.',
+  description: 'Riya Dev personal website.',
   keywords: ['Riya', 'Dev', 'TJHSST', 'Michigan', 'Computer', 'Singing', 'Personal Portfolio', 'Website'],
   authors: [{ name: 'Riya Dev' }],
   applicationName: 'Riya Dev personal website.',
